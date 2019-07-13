@@ -1,0 +1,74 @@
+/* === fonts ===
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Catamaran', sans-serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Barlow', sans-serif;
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Rock Salt', cursive;
+ */
+
+ :root {
+    --link-font-color: white;
+    --link-font-family: 'Questrial', sans-serif;
+}
+
+hr {
+    background-color: white;
+    width: 70%;
+}
+
+#sidebar-content {
+    /* border: solid 1px red; */
+    margin: auto;
+    /* height: 90vh; */
+    /* height: 100%; */
+}
+
+#sidebar-nav {
+    /* display: inline-block; */
+    float: left;
+    border-right: solid 1px gray;
+    /* border-bottom: solid 1px gray; */
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.055);
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-text {
+    color: white;
+    font-size: 30pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: var(--link-font-family);
+}
+
+.sidebar-text {
+    /* color: white; */
+    font-size: 10pt;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: var(--link-font-family);
+}
+
+#headshot {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 50px;
+    pointer-events: none;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
