@@ -20,6 +20,7 @@ hr {
 #sidebar-content {
     /* border: solid 1px red; */
     margin: auto;
+    margin-top: 15px;
     /* height: 90vh; */
     /* height: 100%; */
 }
@@ -27,24 +28,30 @@ hr {
 #sidebar-nav {
     /* display: inline-block; */
     float: left;
-    border-right: solid 1px gray;
+    /* border-right: solid 1px gray; */
     /* border-bottom: solid 1px gray; */
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.055);
+    /* background-color: rgba(255, 255, 255, 0.055); */
     display: flex;
     flex-direction: column;
 }
 
+.nav-text:hover {
+    /* color: rgba(143, 92, 11, 0.5); */
+}
+
 .nav-text {
     color: white;
-    font-size: 30pt;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-size: 20pt;
+    margin-top: 30px;
+    margin-bottom: 30px;
     font-family: var(--link-font-family);
+    display: block;
 }
 
 .sidebar-text {
-    /* color: white; */
+    display: block;
+    color: white;
     font-size: 10pt;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -52,9 +59,11 @@ hr {
 }
 
 #headshot {
-    width: 250px;
+    width: 350px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     float: none;
 }
 
@@ -62,6 +71,10 @@ hr {
     animation: App-logo-spin infinite 20s linear;
     height: 50px;
     pointer-events: none;
+}
+
+.footer {
+    margin-top: 100px;
 }
 
 @keyframes App-logo-spin {
