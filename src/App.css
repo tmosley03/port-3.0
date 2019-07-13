@@ -1,8 +1,11 @@
 .App {
     text-align: center;
-    height: 100vh;
+    /* height: 100vh; */
     background-image: url(./assets/images/black-metallic-wallpaper-6.jpg);
-    display: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     /* background-color: gray; */
 }
 
@@ -23,6 +26,10 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+}
+
+body {
+    padding-top: 50px;
 }
 
 .App-link {

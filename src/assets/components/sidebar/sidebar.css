@@ -17,27 +17,39 @@ hr {
     width: 70%;
 }
 
+.sidenav {
+    /* height: 100%; */
+    /* width: 160px; */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+#sidebar-nav {
+    display: inline-block;
+    /* float: left; */
+    border-right: solid 5px rgb(175, 22, 22);
+    /* border-bottom: solid 1px gray; */
+    /* height: 100%; */
+    background-color: rgba(255, 255, 255, 0.055);
+    display: flex;
+    /* flex-direction: column; */
+}
+
 #sidebar-content {
     /* border: solid 1px red; */
     margin: auto;
-    margin-top: 15px;
+    /* margin-top: 15px; */
+    padding-top: 50px;
     /* height: 90vh; */
     /* height: 100%; */
 }
 
-#sidebar-nav {
-    /* display: inline-block; */
-    float: left;
-    /* border-right: solid 1px gray; */
-    /* border-bottom: solid 1px gray; */
-    height: 100%;
-    /* background-color: rgba(255, 255, 255, 0.055); */
-    display: flex;
-    flex-direction: column;
-}
-
 .nav-text:hover {
-    /* color: rgba(143, 92, 11, 0.5); */
+    color: rgba(246, 224, 124, 0.733);
 }
 
 .nav-text {
@@ -63,8 +75,10 @@ hr {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     float: none;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
 .App-logo {
@@ -75,6 +89,8 @@ hr {
 
 .footer {
     margin-top: 100px;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
 @keyframes App-logo-spin {

@@ -2589,7 +2589,7 @@
     right: 51%;
     bottom: 0;
     background: gray;
-    height: 4px;
+    height: 1px;
     -webkit-transition-property: left, right;
     transition-property: left, right;
     -webkit-transition-duration: 0.3s;

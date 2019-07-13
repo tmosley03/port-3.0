@@ -1,0 +1,36 @@
+import React from 'react';
+import './long-copy.css';
+
+const LongCopy = ()=>{
+    return(
+        <div className="col-md-8 text-justify place-hldr-div">
+            <hr/>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium ac sapien ut feugiat. Ut sagittis tellus vitae dui consectetur, nec tempus neque pellentesque. Vivamus eu diam id massa pulvinar ultrices. Curabitur ac laoreet nunc. Morbi eu suscipit magna. Morbi quis justo mollis, pulvinar nisl eget, pellentesque turpis. Maecenas id nibh ac purus viverra semper a auctor quam. Etiam elementum tortor sit amet tortor ultrices commodo. Nulla tincidunt diam diam, non dapibus nunc rutrum ut. Cras nec arcu a dui fringilla commodo. Suspendisse tempor purus tincidunt finibus elementum.
+<br/>
+Vivamus accumsan, mauris vel auctor faucibus, mauris metus elementum ligula, eu laoreet metus mi ac quam. Nulla a vulputate odio. Pellentesque dui quam, sagittis at ligula in, euismod luctus metus. Sed lectus dolor, tincidunt ac sodales in, ullamcorper et mi. Phasellus et mi in nisl pellentesque vehicula non et purus. Pellentesque molestie suscipit consequat. Cras leo diam, ullamcorper ut urna a, ultricies pharetra metus. Aenean molestie eu urna at ultrices. Aliquam efficitur venenatis orci, ut molestie ex cursus quis. In vitae augue fringilla, consequat nibh eget, posuere sem.
+<br/>
+Nulla scelerisque turpis non euismod volutpat. Integer sollicitudin at sapien a dictum. Ut pretium molestie malesuada. Nunc elementum, felis eget volutpat iaculis, leo odio imperdiet dui, non condimentum ipsum purus a velit. Pellentesque bibendum efficitur mi, nec rutrum nisi ultricies quis. Nam quis euismod ante. Nulla mauris lectus, imperdiet ac arcu quis, scelerisque scelerisque metus. Nam volutpat ultricies lorem sit amet vehicula. Sed quis augue diam. Ut porttitor, nibh eget dictum ultricies, ex mauris viverra velit, ac ultricies nisi velit at mi. In gravida nisl non libero faucibus venenatis.
+<br/>
+Nullam pharetra posuere odio, id luctus nulla vehicula a. Suspendisse nec scelerisque urna. Morbi tortor elit, vestibulum a cursus sed, consectetur nec dolor. Integer semper nisl non magna facilisis elementum. Aenean in suscipit erat, quis porta libero. Morbi pulvinar quis mauris ac mattis. Suspendisse potenti. Proin vulputate aliquam ullamcorper. Phasellus venenatis id purus ac vulputate. Praesent purus neque, lobortis ut purus vel, gravida lobortis metus.
+<br/>
+Morbi vitae massa tortor. Donec at mi vel est convallis vulputate non vitae mauris. Pellentesque interdum hendrerit magna nec commodo. Sed diam sem, malesuada non venenatis in, tincidunt eget odio. Phasellus velit ante, efficitur non vulputate vel, gravida sit amet turpis. Pellentesque sed tortor mollis, scelerisque leo sed, sagittis sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+<br/>
+Integer condimentum posuere ligula, id convallis mi efficitur a. Mauris consequat tempor fermentum. Etiam in nulla ac eros tincidunt pharetra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer eget velit eu ligula pellentesque varius. Nulla eu purus vel nunc aliquam pharetra vel quis nisi. Aenean tempor rutrum elit ac feugiat. Aenean mattis tellus nec faucibus mattis. Nullam eget sem ac ligula finibus pulvinar vel vitae nulla. Phasellus dapibus, tortor nec porta fringilla, risus ipsum cursus odio, et aliquam enim urna et metus.
+<br/>
+Quisque ut viverra massa. Mauris at vestibulum ipsum, sed malesuada erat. Ut at mauris ut diam hendrerit aliquet eget at ex. Proin ornare a metus at vulputate. Aliquam mattis libero sed commodo suscipit. Mauris eu mollis felis, quis scelerisque eros. Donec nec justo quis mi tempor rutrum et id urna. Aenean molestie imperdiet lectus eu vulputate. Maecenas vitae mattis dolor, sed iaculis dui.
+<br/>
+Fusce vehicula metus tortor, ac condimentum sem porta vitae. In egestas arcu sit amet urna placerat, et sagittis lacus auctor. Suspendisse ac pretium velit. Integer eget magna nec risus semper ullamcorper. Nunc sodales sem et mattis posuere. Nullam nec nisi erat. Vivamus vel neque ac nibh iaculis dictum. Nulla eu libero vel massa consequat dignissim. Aliquam suscipit viverra scelerisque. Phasellus suscipit vestibulum accumsan. Aliquam pretium velit at lacus ultricies euismod. Mauris id venenatis tellus. Cras vestibulum mauris sit amet odio tristique congue. Curabitur sed aliquam purus, non aliquet orci.
+<br/>
+Etiam ut velit et nunc auctor viverra id a odio. Sed arcu elit, ultricies eu tristique in, efficitur vitae ipsum. Phasellus nisl tellus, bibendum a magna at, venenatis tristique purus. Etiam rhoncus gravida volutpat. Pellentesque fringilla efficitur purus, sed finibus neque hendrerit sed. Etiam imperdiet lacus non nunc imperdiet, vitae tempor purus volutpat. Phasellus non sapien id eros finibus venenatis sed in lectus. Nulla facilisi. Cras tincidunt tincidunt sagittis. Integer sit amet tellus metus. Morbi et tellus sit amet neque dapibus condimentum. Vestibulum dictum nisi commodo, posuere tellus eget, mattis ipsum. Proin ipsum dui, posuere gravida rutrum eget, cursus a elit. Aliquam cursus elit non dui suscipit auctor. Mauris accumsan quis turpis a accumsan. Cras non tempor massa.
+<br/>
+Maecenas aliquam eleifend nunc, sed dictum purus sodales ac. Phasellus pretium ullamcorper molestie. Aliquam aliquet pretium orci mattis vestibulum. In pulvinar bibendum risus at elementum. Ut orci orci, viverra quis efficitur eget, sodales in augue. Aenean eu risus vitae arcu laoreet facilisis eu eget eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis posuere lacus vel facilisis tristique. Aenean felis lacus, cursus ac pharetra malesuada, mattis sit amet arcu. Ut eget aliquet felis, vitae feugiat nibh. Quisque aliquam nibh at sem pretium ullamcorper. Nunc in pretium dui, a feugiat lorem. Donec mauris sem, cursus ut ipsum quis, vehicula vulputate odio. Suspendisse ultrices pulvinar molestie. Quisque ullamcorper elit et ipsum posuere efficitur.
+<br/>
+Pellentesque blandit sem eget pulvinar venenatis. Mauris eget accumsan ante, ut vehicula dui. Praesent dignissim condimentum lorem a mollis. Nullam gravida aliquet justo quis scelerisque. Morbi interdum, nibh ac fermentum porta, tellus nisi viverra augue, sed consequat lorem lacus ut justo. Suspendisse dictum magna quis interdum venenatis. Nam lorem neque, egestas vel varius lobortis, auctor quis augue. Mauris purus tortor, sodales sed velit eget, fermentum dapibus diam. Curabitur luctus, lacus id rutrum aliquam, arcu ipsum ultricies tortor, pellentesque tempor leo lectus ac magna. Aliquam auctor ipsum sed metus blandit consectetur. Pellentesque et justo lacinia, convallis augue et, tempor sem. Nunc sit amet tortor malesuada, interdum risus non, commodo tortor. Mauris volutpat libero in eros iaculis efficitur. Aliquam sit amet semper leo, eu dapibus dolor. Praesent a tellus blandit, placerat diam ut, tempor massa.
+
+</p>
+<hr></hr>
+        </div>
+    );
+}
+
+export default LongCopy;

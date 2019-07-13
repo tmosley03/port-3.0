@@ -3,21 +3,23 @@ import './hover.css';
 import './sidebar.css';
 import headshot from './headshot.jpg'
 import logo from './logo.svg'
+import name from './name.png'
 
 const Sidebar = () => {
     return (
-        <div>
-            <div id="sidebar-nav"
-                className="col-md-3">
+        
+            <div id="sidebar-nav  "
+                className=" col-md-2 sidenav">
                 <div id="sidebar-content">
                     <div id="nav-s">
+                    <img src={ name } alt=""/>
                         <img id="headshot" src={headshot} alt="" className="img-fluid" />
                         <hr/>
-                        <p className="nav-text hvr-grow text-uppercase ">About Me</p>
-                        <p className="nav-text hvr-grow text-uppercase ">Technology</p>
-                        <p className="nav-text hvr-grow text-uppercase ">Experience</p>
-                        <p className="nav-text hvr-grow text-uppercase ">Interests</p>
-                        <p className="nav-text hvr-grow text-uppercase ">Contact</p>
+                        <p className="nav-text hvr-underline-from-center  text-uppercase ">About Me</p>
+                        <p className="nav-text  hvr-underline-from-center  text-uppercase ">Technology</p>
+                        <p className="nav-text  hvr-underline-from-center  text-uppercase ">Experience</p>
+                        <p className="nav-text  hvr-underline-from-center  text-uppercase ">Interests</p>
+                        <p className="nav-text  hvr-underline-from-center  text-uppercase ">Contact</p>
                     </div>
                    
                     <hr />
@@ -29,7 +31,7 @@ const Sidebar = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        
     )
 }
 
