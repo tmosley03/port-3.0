@@ -1,7 +1,7 @@
 import React from 'react';
-import './long-copy.css';
+import './temp-comp.css';
 
-const LongCopy = ()=>{
+const TempComp = ()=>{
     return(
         <div className="col-md-8 text-justify place-hldr-div">
             <hr/>
@@ -33,4 +33,4 @@ Pellentesque blandit sem eget pulvinar venenatis. Mauris eget accumsan ante, ut 
     );
 }
 
-export default LongCopy;
+export default TempComp;
