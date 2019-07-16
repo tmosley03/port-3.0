@@ -1,0 +1,22 @@
+p {
+    color: white;
+}
+
+.place-hldr-div {
+    margin-left: 360.25px;
+    float: right;
+}
+
+.lang-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lang-icon {
+    height: 75px;
+    margin: 15px;
+}
+
+.tech-header {
+    color: white;
+}
