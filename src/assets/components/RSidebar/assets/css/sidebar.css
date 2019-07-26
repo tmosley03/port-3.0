@@ -1,0 +1,111 @@
+/* === fonts ===
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Catamaran', sans-serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Barlow', sans-serif;
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Rock Salt', cursive;
+ */
+
+ :root {
+    --link-font-color: white;
+    --link-font-family: 'Questrial', sans-serif;
+}
+
+hr {
+    background-color: white;
+    width: 70%;
+}
+
+.sidenav {
+    height: 100%;
+    /* width: 160px; */
+    position: fixed;
+    margin-left: 50px;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    padding-top: 50px;
+    background-color: rgba(255, 255, 255, 0.055);
+    /* border-right: solid 5px rgb(175, 22, 22); */
+}
+
+#sidebar-nav {
+    /* display: inline-block; */
+    /* float: left; */
+    /* border-right: solid 5px rgb(175, 22, 22); */
+    /* border-bottom: solid 1px gray; */
+    /* height: 100%; */
+    /* background-color: rgba(255, 255, 255, 0.205); */
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+#sidebar-content {
+    /* border: solid 1px red; */
+    margin: auto;
+    /* margin-top: 15px; */
+    padding-top: 50px;
+    /* height: 90vh; */
+    /* height: 100%; */
+}
+
+.nav-text:hover {
+    color: rgba(246, 224, 124, 0.733);
+}
+
+.nav-text {
+    color: white;
+    font-size: 20pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Rajdhani', sans-serif;
+    display: block;
+}
+
+.sidebar-text {
+    display: block;
+    color: white;
+    font-size: 10pt;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: var(--link-font-family);
+}
+
+
+/* #name {
+    width: 300px;
+} */
+
+#headshot {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    float: none;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 50px;
+    pointer-events: none;
+}
+
+.footer {
+    margin-top: 75px;
+    /* border: 1px solid white; */
+    border-radius: 5px;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

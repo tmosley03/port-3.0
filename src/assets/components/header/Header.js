@@ -1,16 +1,18 @@
 import React from 'react';
 //import 'header/header.css';
-import './header.css';
-// import name from './name.png'
+import './assets/css/header.css';
+import name from './assets/images/name.png'
+
+
+
 const header = () => {
     return(
        
-        <nav id= "header" className= "navbar-nav fixed-top">
-            {/* <h4>thomas mosley 3</h4> */}
-            {/* <img src={ name } alt=""/> */}
-            <div>
-                <h5>Web Developer | Strategic Partner</h5>
-            </div>
+        <nav id= "header" className= "navbar fixed-top">
+           
+          <img id="name" className="navbar-brand"src={name} alt="" />
+          <h4  id="header-text" className="d-inline-block align-top">Web Developer | <span id="header-span">Strategic Partner</span></h4>
+
         </nav>
         
     )

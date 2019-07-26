@@ -6,10 +6,10 @@ import home from './assets/images/home.jpg'
 
 function Home() {
   return (
-      <div className="col-md-8 text-justify place-hldr-div">
+      <div className="col-md-12 text-justify place-hldr-div">
             <hr/>
 
-            <p>THIS IS THE HOME PAGE</p>
+            <p className="text-center">THIS IS THE HOME PAGE</p>
             <hr/>
 
             <img id="about" src={home} alt="" className="img-fluid" />

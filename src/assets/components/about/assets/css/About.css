@@ -1,8 +1,16 @@
-p {
+.component-header {
     color: white;
+    display: inline-block;
 }
 
-.place-hldr-div {
-    margin-left: 390.25px;
-    float: right;
+.component-text {
+    text-align: justify;
+}
+
+#spinner {
+    width: 15rem;
+    height: 15rem;
+    background-color: white;
+    margin: auto;
+    margin-top: 25%;
 }

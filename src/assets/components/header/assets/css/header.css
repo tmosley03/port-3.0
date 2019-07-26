@@ -1,0 +1,33 @@
+/* === fonts ===
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Catamaran', sans-serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Barlow', sans-serif;
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Rock Salt', cursive;
+ */
+
+#header {
+    /* background: url('../css/header-pic.jpg'); */
+    /* background-position: 100% 100%; */
+    background-repeat: no-repeat;
+    /* background-color: rgb(54, 50, 50); */
+    height: 70px;
+    /* border-bottom: 5px solid rgba(80, 75, 75, 0.219); */
+    /* background-color: rgba(255, 255, 255, 0.055); */
+    background-color: black;
+    /* margin-bottom: 125px; */
+    border-bottom: "black";
+}
+
+#header-text {
+    color: white;
+    margin: auto;
+    margin-right: 80px;
+    font-family: 'Rajdhani', sans-serif;
+    vertical-align: middle;
+}
+
+#name {
+    margin-left: 80px;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 // components
 import Header from './assets/components/header/Header'
 import Sidebar from './assets/components/sidebar/Sidebar';
+import RSidebar from './assets/components/RSidebar/RSidebar';
 // import TempComp from './assets/components/temp-comp/TempComp';
 // pages
 import About from './assets/components/about/About'
@@ -18,24 +19,34 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.css';
 
 
+
 function App() {
   return (
     <Router>
       <div className="App">
         <Header />
+        <Sidebar />
+
         <div className="container">
           <div className="row">
-            <Sidebar />
+             {/* spinner */}
+             {/* <div className="spinner-grow" id="spinner" role="status">
+                <span className="sr-only">Loading...</span>
+              </div> */}
+
             <Switch>
               <Route path="/" exact component={Home} />
+
               <Route path="/about" component={About} />
               <Route path="/technology" component={Technology} />
               <Route path="/experience" component={Experience} />
               <Route path="/interests" component={Interests} />
               <Route path="/contact" component={Contact} />
             </Switch>
+
           </div>
         </div>
+        <RSidebar />
         <Footer />
       </div>
     </Router>
