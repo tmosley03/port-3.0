@@ -64,7 +64,7 @@ function Experience() {
               <ul>
                 <li className="exp-bullets">Thing 1</li>
                 <li className="exp-bullets">Thing 2</li>
-                <li className="exp-bullets">Thing 3</li>
+                <li className="exp-bullets">Thing  3</li>
               </ul>
             </div>
 
