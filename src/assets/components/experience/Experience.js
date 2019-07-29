@@ -92,7 +92,7 @@ function Experience() {
       </section>
 
       <hr />
-      <a href="https://drive.google.com/file/d/1WckPTn8XZVkfiyfyEhkJ0XI8O6Xz9_54/view?usp=sharing" target="_blank">
+      <a href="https://drive.google.com/file/d/1WckPTn8XZVkfiyfyEhkJ0XI8O6Xz9_54/view?usp=sharing" target="_blank"  rel="noopener noreferrer">
         <h2 className="card-header">View Full Resume</h2>
       </a>
     </div>
