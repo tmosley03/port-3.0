@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div id="footer" className="row navbar-nav fixed-bottom">
         
-            <h1 className="text-center nav-text">FOOTER</h1>
+            <h1 className="text-center nav-text">Test Footer</h1>
               
     </div>
 
