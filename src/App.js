@@ -11,7 +11,7 @@ import Experience from './assets/components/experience/Experience'
 import Interests from './assets/components/interests/Interests'
 import Technology from './assets/components/technology/Technology'
 import Home from './assets/components/home/Home'
-// import Footer from './assets/components/footer/Footer'
+import Footer from './assets/components/footer/Footer'
 // dependencies
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 // import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
@@ -48,7 +48,7 @@ function App() {
           </div>
         </div>
         <RSidebar />
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
 
