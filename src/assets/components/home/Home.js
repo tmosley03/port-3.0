@@ -6,15 +6,15 @@ import home from './assets/images/home.jpg'
 
 function Home() {
   return (
-      <div className="col-md-12 text-justify place-hldr-div">
-            <hr/>
+      <div className="col-md-12 place-hldr-div">
+            
 
-            <p className="text-center">THIS IS THE HOME PAGE</p>
+            <h1 className="component-header">HOME</h1>
             <hr/>
 
             <img id="about" src={home} alt="" className="img-fluid" />
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium ac sapien ut feugiat. Ut sagittis tellus vitae dui consectetur, nec tempus neque pellentesque. Vivamus eu diam id massa pulvinar ultrices. Curabitur ac laoreet nunc. Morbi eu suscipit magna. Morbi quis justo mollis, pulvinar nisl eget, pellentesque turpis. Maecenas id nibh ac purus viverra semper a auctor quam. Etiam elementum tortor sit amet tortor ultrices commodo. Nulla tincidunt diam diam, non dapibus nunc rutrum ut. Cras nec arcu a dui fringilla commodo. Suspendisse tempor purus tincidunt finibus elementum.
+            <p className=" text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium ac sapien ut feugiat. Ut sagittis tellus vitae dui consectetur, nec tempus neque pellentesque. Vivamus eu diam id massa pulvinar ultrices. Curabitur ac laoreet nunc. Morbi eu suscipit magna. Morbi quis justo mollis, pulvinar nisl eget, pellentesque turpis. Maecenas id nibh ac purus viverra semper a auctor quam. Etiam elementum tortor sit amet tortor ultrices commodo. Nulla tincidunt diam diam, non dapibus nunc rutrum ut. Cras nec arcu a dui fringilla commodo. Suspendisse tempor purus tincidunt finibus elementum.
 <br/>
 Vivamus accumsan, mauris vel auctor faucibus, mauris metus elementum ligula, eu laoreet metus mi ac quam. Nulla a vulputate odio. Pellentesque dui quam, sagittis at ligula in, euismod luctus metus. Sed lectus dolor, tincidunt ac sodales in, ullamcorper et mi. Phasellus et mi in nisl pellentesque vehicula non et purus. Pellentesque molestie suscipit consequat. Cras leo diam, ullamcorper ut urna a, ultricies pharetra metus. Aenean molestie eu urna at ultrices. Aliquam efficitur venenatis orci, ut molestie ex cursus quis. In vitae augue fringilla, consequat nibh eget, posuere sem.
 <br/>

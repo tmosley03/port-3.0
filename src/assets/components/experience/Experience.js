@@ -6,11 +6,12 @@ import './assets/css/Experience.css';
 
 function Experience() {
   return (
-    <div className="col-md-12 place-hldr-div">
+    <div className="place-hldr-div">
       <h1 className="component-header">EXPERIENCE</h1>
       <hr />
       <img id="tech-header-img" src="https://media.giphy.com/media/dbtDDSvWErdf2/giphy.gif" alt="" className="img-fluid" />
       <hr />
+      <div  className="">
       <p className="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium ac sapien ut feugiat. Ut sagittis tellus vitae dui consectetur, nec tempus neque pellentesque. Vivamus eu diam id massa pulvinar ultrices. Curabitur ac laoreet nunc. Morbi eu suscipit magna. Morbi quis justo mollis, pulvinar nisl eget, pellentesque turpis. Maecenas id nibh ac purus viverra semper a auctor quam. Etiam elementum tortor sit amet tortor ultrices commodo. Nulla tincidunt diam diam, non dapibus nunc rutrum ut. Cras nec arcu a dui fringilla commodo. Suspendisse tempor purus tincidunt finibus elementum.</p>
       <hr />
       <br />
@@ -96,7 +97,7 @@ function Experience() {
         <h2 className="card-header">View Full Resume</h2>
       </a>
     </div>
-
+    </div>
   );
 }
 
