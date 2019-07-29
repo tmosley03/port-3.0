@@ -17,18 +17,18 @@ class Sidebar extends Component {
         return (
 
             <div id="sidebar-nav  "
-                className=" col-md-2 sidenav">
+                className=" col-lg-2 col-md-2 col-xs-2 sidenav">
                 <div id="sidebar-content">
                     <div id="nav-s">
                         <img id="headshot" src={headshot} alt="" className="img-fluid" />
                         <br />
                         <br />
                         <hr />
-                        <Link to="/" className="nav-text  hvr-grow  text-uppercase">home</Link>
+                        {/* <Link to="/" className="nav-text  hvr-grow  text-uppercase">home</Link> */}
                         <Link to="about" className="nav-text  hvr-grow  text-uppercase">About</Link>
                         <Link to="technology" className="nav-text  hvr-grow  text-uppercase">Technology</Link>
                         <Link to="experience" className="nav-text  hvr-grow  text-uppercase">Experience</Link>
-                        <Link to="interests" className="nav-text  hvr-grow  text-uppercase">Interests</Link>
+                        {/* <Link to="interests" className="nav-text  hvr-grow  text-uppercase">Interests</Link> */}
                         <Link to="contact" className="nav-text  hvr-grow  text-uppercase">Contact</Link>
                     </div>
                     <hr />

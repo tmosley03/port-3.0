@@ -45,7 +45,7 @@ import mamp from './assets/images/tech-icons/mamp.png'
 
 function Technology() {
   return (
-    <div className="col-md-12 place-hldr-div">
+    <div id="tech-content-div" className="col-lg-8 col-md-6 col-xs-4">
     
 
       <h1 className="component-header">TECHNOLOGY</h1>
@@ -55,7 +55,7 @@ function Technology() {
       <p className=" text-justify">
       The MERN (Mongo, Express, React, Node) stack is a powerful and popular stack for modern web development and has thus far been the focus of my learning. However, it goes without saying, there is always more to learn and, for me, that is the best part of progamming! I'm passionate about aquiring knowledge and new skills and applying them to solving problems. If you are interested in discussing how I can help you or your organization, please contact me at the links below.
       </p>
-      <hr />>
+      <hr />
       <div className="lang-div">
         <h2 className="tech-header">Front End</h2>
         <br/>

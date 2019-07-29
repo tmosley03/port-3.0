@@ -14,6 +14,7 @@ import Home from './assets/components/home/Home'
 import Footer from './assets/components/footer/Footer'
 // dependencies
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+// import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 // import logo from './logo.svg';
 import './App.css';

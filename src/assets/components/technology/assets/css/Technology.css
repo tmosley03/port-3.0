@@ -19,8 +19,8 @@ p {
 }
 
 .lang-icon {
-    height: 125px;
-    margin: 15px;
+    height: 100px;
+    margin: 25px;
 }
 
 .tech-header {
@@ -29,5 +29,9 @@ p {
 }
 
 #tech-header-img {
+    margin: auto;
+}
+
+#tech-content-div {
     margin: auto;
 }

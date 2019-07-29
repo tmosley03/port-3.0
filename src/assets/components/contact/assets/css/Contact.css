@@ -24,3 +24,7 @@ p {
 #msg-area {
     height: 250px;
 }
+
+#contact-text {
+    margin: auto;
+}
