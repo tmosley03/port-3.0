@@ -47,7 +47,7 @@ import mamp from './assets/images/tech-icons/mamp.png'
 
 function Technology() {
   return (
-    <div id="tech-content-div" className="col-lg-8 col-md-6 col-xs-4">
+    <div id="tech-content-div" className="content-component col-lg-8 col-md-8 col-sm-6">
     
 
       <h1 className="component-header">TECHNOLOGY</h1>

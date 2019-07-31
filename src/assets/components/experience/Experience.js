@@ -6,12 +6,12 @@ import './assets/css/Experience.css';
 
 function Experience() {
   return (
-    <div className="content-component">
+    <div className="content-component col-lg-8 col-md-8 col-sm-6">
       <h1 className="component-header">EXPERIENCE</h1>
       <hr />
       <img id="tech-header-img" src="https://media.giphy.com/media/dbtDDSvWErdf2/giphy.gif" alt="" className="img-fluid" />
       <hr />
-      <div id="exp-content" className=" col-lg-8 col-md-8 col-sm-6">
+      <div id="exp-content" className=" ">
         <p className="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium ac sapien ut feugiat. Ut sagittis tellus vitae dui consectetur, nec tempus neque pellentesque. Vivamus eu diam id massa pulvinar ultrices. Curabitur ac laoreet nunc. Morbi eu suscipit magna. Morbi quis justo mollis, pulvinar nisl eget, pellentesque turpis. Maecenas id nibh ac purus viverra semper a auctor quam. Etiam elementum tortor sit amet tortor ultrices commodo. Nulla tincidunt diam diam, non dapibus nunc rutrum ut. Cras nec arcu a dui fringilla commodo. Suspendisse tempor purus tincidunt finibus elementum.</p>
         <hr />
         <br />
@@ -24,8 +24,13 @@ function Experience() {
             <hr />
             <ul>
               <li className="exp-bullets">2 Years Web Development</li>
+              <br/>
               <li className="exp-bullets">Real Page Inc. - Full Stack Web Developer</li>
+              <br/>
               <li className="exp-bullets">Junction AI - Full Stack Web Developer</li>
+              <br/>
+              <li className="exp-bullets">Freelance Tech Support / IT Consulting</li>
+              <br/>
               <li className="exp-bullets">U.S. Army - Network Switching Systems Admin</li>
             </ul>
           </div>
@@ -35,9 +40,11 @@ function Experience() {
             <h2 className="card-header ">Marketing</h2>
             <hr />
             <ul>
-              <li className="exp-bullets">Thing 1</li>
-              <li className="exp-bullets">Thing 2</li>
-              <li className="exp-bullets">Thing 3</li>
+              <li className="exp-bullets">Spokesman on Toyota Motor Corp. National Auto Show Team</li>
+              <br/>
+              <li className="exp-bullets">Marketing Consultant - Holtel Association of North Texas</li>
+              <br/>
+              <li className="exp-bullets">Managed Social Media platforms for various companies and brands</li>
             </ul>
           </div>
 
