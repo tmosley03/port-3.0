@@ -25,6 +25,8 @@ import photoshop from './assets/images/tech-icons/photoshop.png'
 import php from './assets/images/tech-icons/php.png'
 import premiere from './assets/images/tech-icons/premiere.png'
 import react from './assets/images/tech-icons/react.png'
+import apache from './assets/images/tech-icons/apache.png'
+
 // =========================================
 // import restapi from './assets/images/tech-icons/restapi.png'
 import salesforce from './assets/images/tech-icons/salesforce.png'
@@ -75,6 +77,7 @@ function Technology() {
       {/* ======================================================== */}
       <img  src={sql} alt="" className="img-fluid lang-icon" />
       <img  src={php} alt="" className="img-fluid lang-icon" />
+      <img  src={apache} alt="" className="img-fluid lang-icon" />
       <img  src={laravel} alt="" className="img-fluid lang-icon" />
       <img  src={node} alt="" className="img-fluid lang-icon" />
       <img  src={mongo} alt="" className="img-fluid lang-icon" />

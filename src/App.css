@@ -52,8 +52,6 @@ body {
     display: inline-block;
 }
 
-
-/* .place-hldr-div {
-    margin-left: 360.25px;
-    float: right;
-} */
+.content-component {
+    margin: auto;
+}

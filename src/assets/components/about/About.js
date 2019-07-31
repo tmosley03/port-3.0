@@ -5,7 +5,7 @@ import './assets/css/About.css';
 
 function About() {
   return (
-    <div className="place-hldr-div">
+    <div className="content-component">
       {/* <hr /> */}
 
       <h1 className="component-header">About</h1>
