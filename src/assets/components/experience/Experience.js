@@ -6,7 +6,7 @@ import './assets/css/Experience.css';
 
 function Experience() {
   return (
-    <div className="content-component col-lg-8 col-md-8 col-sm-6">
+    <div className="content-component col-lg-11 col-md-8 col-sm-6">
       <h1 className="component-header">EXPERIENCE</h1>
       <hr />
       <img id="tech-header-img" src="https://media.giphy.com/media/dbtDDSvWErdf2/giphy.gif" alt="" className="img-fluid" />
@@ -17,58 +17,62 @@ function Experience() {
         <br />
 
         <div id="card-container" className="container">
+          <div className="row">
+            {/* 1 */}
+            <div className="ex-card col-md-3">
+              <h2 className="card-header">Tech</h2>
+              <hr />
+              <ul>
+                <li className="exp-bullets">2 Years Web Development</li>
+                <br />
+                <li className="exp-bullets">Real Page Inc. - Full Stack Web Developer</li>
+                <br />
+                <li className="exp-bullets">Junction AI - Full Stack Web Developer</li>
+                <br />
+                <li className="exp-bullets">Freelance Tech Support / IT Consulting</li>
+                <br />
+                <li className="exp-bullets">U.S. Army - Network Switching Systems Admin</li>
+              </ul>
+            </div>
 
-          {/* 1 */}
-          <div className="ex-card col-md-3">
-            <h2 className="card-header">Tech</h2>
-            <hr />
-            <ul>
-              <li className="exp-bullets">2 Years Web Development</li>
-              <br/>
-              <li className="exp-bullets">Real Page Inc. - Full Stack Web Developer</li>
-              <br/>
-              <li className="exp-bullets">Junction AI - Full Stack Web Developer</li>
-              <br/>
-              <li className="exp-bullets">Freelance Tech Support / IT Consulting</li>
-              <br/>
-              <li className="exp-bullets">U.S. Army - Network Switching Systems Admin</li>
-            </ul>
+            {/* 2 */}
+            <div className="ex-card col-md-3">
+              <h2 className="card-header ">Marketing</h2>
+              <hr />
+              <ul>
+                <li className="exp-bullets">Spokesman on Toyota Motor Corp. National Auto Show Team</li>
+                <br />
+                <li className="exp-bullets">Marketing Consultant - Holtel Association of North Texas</li>
+                <br />
+                <li className="exp-bullets">Managed Social Media platforms for various companies and brands</li>
+              </ul>
+            </div>
+
+            {/* 3 */}
+            <div className="ex-card col-md-3">
+              <h2 className="card-header ">Leadership</h2>
+              <hr />
+              <ul>
+                <li className="exp-bullets">Thing 1</li>
+                <li className="exp-bullets">Thing 2</li>
+                <li className="exp-bullets">Thing 3</li>
+              </ul>
+            </div>
           </div>
-
-          {/* 2 */}
+          {/* end of row */}
+        </div>
+        
+        {/* 4 */}
+        <div className="row">
           <div className="ex-card col-md-3">
-            <h2 className="card-header ">Marketing</h2>
-            <hr />
-            <ul>
-              <li className="exp-bullets">Spokesman on Toyota Motor Corp. National Auto Show Team</li>
-              <br/>
-              <li className="exp-bullets">Marketing Consultant - Holtel Association of North Texas</li>
-              <br/>
-              <li className="exp-bullets">Managed Social Media platforms for various companies and brands</li>
-            </ul>
-          </div>
-
-          {/* 3 */}
-          <div className="ex-card col-md-3">
-            <h2 className="card-header ">Leadership</h2>
+            <h2 className="card-header">Creative</h2>
             <hr />
             <ul>
               <li className="exp-bullets">Thing 1</li>
               <li className="exp-bullets">Thing 2</li>
-              <li className="exp-bullets">Thing 3</li>
+              <li className="exp-bullets">Thing  3</li>
             </ul>
           </div>
-
-          {/* 4 */}
-         <div className="ex-card col-md-3">
-            <h2 className="card-header">Creative</h2>
-            <hr />
-           <ul>
-             <li className="exp-bullets">Thing 1</li>
-             <li className="exp-bullets">Thing 2</li>
-             <li className="exp-bullets">Thing  3</li>
-            </ul>
-         </div>
 
           {/* 5 */}
           <div className="ex-card col-md-3">
@@ -77,7 +81,7 @@ function Experience() {
             <ul>
               <li className="exp-bullets">Thing 1</li>
               <li className="exp-bullets">Thing 2</li>
-             <li className="exp-bullets">Thing 3</li>
+              <li className="exp-bullets">Thing 3</li>
             </ul>
           </div>
 
@@ -91,16 +95,17 @@ function Experience() {
               <li className="exp-bullets">Thing 3</li>
             </ul>
           </div>
-
+          {/* end of row */}
+        </div>
       </div>
 
 
-        <hr />
-        <a href="https://drive.google.com/file/d/1WckPTn8XZVkfiyfyEhkJ0XI8O6Xz9_54/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-          <h2 className="card-header">View Full Resume</h2>
-        </a>
-      </div>
+      <hr />
+      <a href="https://drive.google.com/file/d/1WckPTn8XZVkfiyfyEhkJ0XI8O6Xz9_54/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <h2 className="card-header">View Full Resume</h2>
+      </a>
     </div>
+
   );
 }
 

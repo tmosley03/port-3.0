@@ -35,7 +35,8 @@ font-family: 'Rock Salt', cursive;
 body {
     padding-top: 75px;
     padding-bottom: 75px;
-    background-image: url(./assets/images/black-metallic-wallpaper-6.jpg);
+    background-image: url(./assets/images/simple.jpg);
+    /* background-color: black; */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
