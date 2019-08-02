@@ -6,7 +6,7 @@ import './assets/css/Experience.css';
 
 function Experience() {
   return (
-    <div className="content-component col-lg-11 col-md-8 col-sm-6">
+    <div className="content-component col-lg-8 col-md-8 col-sm-6">
       <h1 className="component-header">EXPERIENCE</h1>
       <hr />
       <img id="tech-header-img" src="https://media.giphy.com/media/dbtDDSvWErdf2/giphy.gif" alt="" className="img-fluid" />
@@ -17,9 +17,8 @@ function Experience() {
         <br />
 
         <div id="card-container" className="container">
-          <div className="row">
             {/* 1 */}
-            <div className="ex-card col-md-3">
+            <div className="ex-card">
               <h2 className="card-header">Tech</h2>
               <hr />
               <ul>
@@ -36,7 +35,7 @@ function Experience() {
             </div>
 
             {/* 2 */}
-            <div className="ex-card col-md-3">
+            <div className="ex-card">
               <h2 className="card-header ">Marketing</h2>
               <hr />
               <ul>
@@ -49,7 +48,7 @@ function Experience() {
             </div>
 
             {/* 3 */}
-            <div className="ex-card col-md-3">
+            <div className="ex-card">
               <h2 className="card-header ">Leadership</h2>
               <hr />
               <ul>
@@ -58,13 +57,12 @@ function Experience() {
                 <li className="exp-bullets">Thing 3</li>
               </ul>
             </div>
-          </div>
-          {/* end of row */}
-        </div>
+         
         
-        {/* 4 */}
-        <div className="row">
-          <div className="ex-card col-md-3">
+        
+         {/* 4 */}
+       
+          <div className="ex-card">
             <h2 className="card-header">Creative</h2>
             <hr />
             <ul>
@@ -75,7 +73,7 @@ function Experience() {
           </div>
 
           {/* 5 */}
-          <div className="ex-card col-md-3">
+          <div className="ex-card">
             <h2 className="card-header ">Strategy</h2>
             <hr />
             <ul>
@@ -86,7 +84,7 @@ function Experience() {
           </div>
 
           {/* 6 */}
-          <div className="ex-card col-md-3">
+          <div className="ex-card">
             <h2 className="card-header ">Community</h2>
             <hr />
             <ul>
@@ -94,12 +92,11 @@ function Experience() {
               <li className="exp-bullets">Thing 2</li>
               <li className="exp-bullets">Thing 3</li>
             </ul>
-          </div>
-          {/* end of row */}
-        </div>
+          </div>  
+          
       </div>
 
-
+      </div>
       <hr />
       <a href="https://drive.google.com/file/d/1WckPTn8XZVkfiyfyEhkJ0XI8O6Xz9_54/view?usp=sharing" target="_blank" rel="noopener noreferrer">
         <h2 className="card-header">View Full Resume</h2>

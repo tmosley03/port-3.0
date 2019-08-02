@@ -27,7 +27,13 @@ hr {
     right: 0;
     overflow-x: hidden;
     padding-top: 50px;
-    background-color: rgba(255, 255, 255, 0.055);
+    /* background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(https://media.giphy.com/media/970Sr8vpwEbXG/giphy.gif); */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+    /* background-image: url(https://media.giphy.com/media/3o85xHmloKMcrir58k/giphy.gif); */
+    background-color: rgba(0, 0, 0, 0.350);
     /* float: right; */
     /* border-right: solid 5px rgb(175, 22, 22); */
 }

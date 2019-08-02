@@ -17,6 +17,12 @@ class RSidebar extends Component {
                 className=" col-md-2 rsidenav">
                 <div id="Rsidebar-content">
                   <h2 className="nav-text">Highlights</h2>
+                  <hr/>
+                  <h2 className="nav-text">Dynamic Variable</h2>
+                  <h2 className="nav-text">Dynamic Variable</h2>
+                  <h2 className="nav-text">Dynamic Variable</h2>
+                  <hr/>
+                  <img clasName="img-fluid" src="https://via.placeholder.com/220x400" alt=""/>
                 </div>
             </div>
 

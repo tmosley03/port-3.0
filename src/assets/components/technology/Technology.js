@@ -52,13 +52,15 @@ function Technology() {
 
       <h1 className="component-header">TECHNOLOGY</h1>
       <hr />
-      <img id="tech-header-img" src="https://media.giphy.com/media/l2SpRpwOiLcaqb1XG/giphy.gif" alt="" className="img-fluid" />
+      {/* <img id="tech-header-img" src="https://media.giphy.com/media/l2SpRpwOiLcaqb1XG/giphy.gif" alt="" className="img-fluid" /> */}
+      <img id="tech-header-img" src="https://media.giphy.com/media/kv7mW8wf26Z73lFZI0/giphy.gif" alt="" className="img-fluid" />
       <hr />
       <p className=" text-justify">
       The MERN (Mongo, Express, React, Node) stack is a powerful and popular stack for modern web development and has thus far been the focus of my learning. However, it goes without saying, there is always more to learn and, for me, that is the best part of progamming! I'm passionate about aquiring knowledge and new skills and applying them to solving problems. If you are interested in discussing how I can help you or your organization, please contact me at the links below.
       </p>
       <hr />
       <div className="lang-div">
+        
         <h2 className="tech-header">Front End</h2>
         <br/>
         {/* ======================================================== */}

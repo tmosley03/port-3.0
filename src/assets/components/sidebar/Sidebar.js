@@ -34,7 +34,7 @@ class Sidebar extends Component {
                     <hr />
 
                     <p className="sidebar-text">This site was brought to you<br /> by yours truly<br />
-                        &<br />React JS <span><img src={logo} alt="" className="img-fluid App-logo" /></span></p>
+                        &<br />React JS <span><img id="react-logo" src={logo} alt="" className="img-fluid App-logo" /></span></p>
 
                 </div>
             </div>
