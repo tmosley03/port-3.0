@@ -47,7 +47,7 @@ function App() {
 
           </div>
         </div>
-        <RSidebar />
+        {/* <RSidebar /> */}
         <Footer />
       </div>
     </Router>
