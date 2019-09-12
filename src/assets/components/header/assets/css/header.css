@@ -15,12 +15,11 @@ font-family: 'Rock Salt', cursive;
     height: 70px;
     /* border-bottom: 5px solid rgba(80, 75, 75, 0.219); */
     /* background-color: rgba(255, 255, 255, 0.055); */
-    /* background-color: black; */
+    background-color: black;
     /* margin-bottom: 125px; */
     border-bottom: "black";
-    background: /* top, transparent red, faked with gradient */
-    linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(https://media.giphy.com/media/sRFEa8lbeC7zbcIZZR/giphy.gif);
-    background-size: cover;
+    /* linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(https://media.giphy.com/media/sRFEa8lbeC7zbcIZZR/giphy.gif); */
+  
 }
 
 #header-text {
