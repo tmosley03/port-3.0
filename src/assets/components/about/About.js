@@ -1,6 +1,7 @@
 import React from 'react';
 import './assets/css/About.css';
 //import about from './assets/images/about.jpg'
+import thomas from './assets/images/thomas.jpg';
 
 
 function About() {
@@ -12,7 +13,7 @@ function About() {
       <br/>
       <hr />
 
-      <img id="about" src="https://media.giphy.com/media/3oEhnb9Jod4xU9Xsvm/giphy.gif" alt="" className="img-fluid" />
+      <img id="about-img" src={thomas} alt="thomas" className="img-fluid" />
       <hr />
       <div id="about-text-div"className="col-lg-8 col-md-6 col-xs-4">
       <p  className="text-justify">

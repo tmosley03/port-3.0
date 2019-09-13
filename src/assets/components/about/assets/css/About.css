@@ -18,3 +18,7 @@
 #about-text-div {
     margin: auto;
 }
+
+#about-img{
+    max-width: 300px;
+}
