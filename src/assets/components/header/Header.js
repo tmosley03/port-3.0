@@ -11,7 +11,7 @@ const header = () => {
         <nav id= "header" className= "navbar fixed-top">
            
           <img id="name" className="navbar-brand"src={name} alt="" />
-          <h4  id="header-text" className="d-inline-block align-top">Web Developer | <span id="header-span">Strategic Partner</span></h4>
+          <h4  id="header-text" className="d-inline-block align-top">web developer </h4>
 
         </nav>
         

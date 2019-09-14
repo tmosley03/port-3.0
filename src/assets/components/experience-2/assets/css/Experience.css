@@ -1,0 +1,58 @@
+/* === fonts ===
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Catamaran', sans-serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Barlow', sans-serif;
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Rock Salt', cursive;
+ */
+
+.exp-header{
+    font-size: 15pt;
+    color:white;
+    /* text-align: center; */
+    font-weight: bolder;
+    font-style: und
+}
+
+.exp-text{
+    color: white;
+    text-align: center;
+}
+
+.exp-text span{
+    font-weight: bold;
+    color: rgb(145, 191, 243);
+    font-style: italic;
+}
+
+.exp-div{
+    display: inline-block;  
+    margin: 25px;
+    max-width: 225px;
+    /* border: solid 1px white; */
+    /* align-content: center; */
+    float: none;
+    padding: 5px;
+}
+
+ul{
+    /* margin: auto; */
+    padding: 0;
+    list-style-type: none;
+}
+
+.exp-div-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.bdr-lft{
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+}
+
+#res-icon{
+    height: 90px;
+}

@@ -7,7 +7,7 @@ import Sidebar from './assets/components/sidebar/Sidebar';
 // pages
 import About from './assets/components/about/About'
 import Contact from './assets/components/contact/Contact'
-import Experience from './assets/components/experience/Experience'
+import Experience from './assets/components/experience-2/Experience'
 import Interests from './assets/components/interests/Interests'
 import Technology from './assets/components/technology/Technology'
 // import Home from './assets/components/home/Home'
