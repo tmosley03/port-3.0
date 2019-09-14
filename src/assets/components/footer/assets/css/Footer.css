@@ -7,10 +7,13 @@
     background-size: cover;
     margin-top: 125px;
     align-content: center;
+    padding-top: 8px;
     text-align: center;
 }
 
-h5 {
-    color: white;
+.footer-txt {
+    color: gray;
     text-align: center;
+    font-size: 6pt;
+    vertical-align: middle;
 }

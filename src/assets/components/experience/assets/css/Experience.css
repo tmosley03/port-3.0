@@ -13,7 +13,7 @@ font-family: 'Rock Salt', cursive;
     min-height: 400px;
     width: 275px;
     border: solid 1px white;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: rgba(124, 124, 124, 0.685);
     /* margin: auto; */
     margin: 20px;
@@ -29,8 +29,8 @@ font-family: 'Rock Salt', cursive;
     text-align: left;
 }
 
-#exp-content {
-    /* margin: auto; */
+.exp-content {
+    margin: auto;
 }
 
 #card-container {

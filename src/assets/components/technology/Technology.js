@@ -26,6 +26,7 @@ import php from './assets/images/tech-icons/php.png'
 import premiere from './assets/images/tech-icons/premiere.png'
 import react from './assets/images/tech-icons/react.png'
 import apache from './assets/images/tech-icons/apache.png'
+import giphy from './assets/images/giphy.gif'
 
 // =========================================
 // import restapi from './assets/images/tech-icons/restapi.png'
@@ -53,7 +54,7 @@ function Technology() {
       <h1 className="component-header">TECHNOLOGY</h1>
       <hr />
       {/* <img id="tech-header-img" src="https://media.giphy.com/media/l2SpRpwOiLcaqb1XG/giphy.gif" alt="" className="img-fluid" /> */}
-      <img id="tech-header-img" src="https://media.giphy.com/media/kv7mW8wf26Z73lFZI0/giphy.gif" alt="" className="img-fluid" />
+      <img id="tech-header-img" src={giphy} alt="" className="img-fluid" />
       <hr />
       <p className=" text-justify tech-component col-lg-8 col-md-8 col-sm-6 ">
       The icons below represent an overview of the tools and technologies I am most familiar with and have used up to this point.  With the exception of vanilla Javascript, I learned most of what is listed below on  the job as the need arose.  Why is that relevant?  Well, the tools and technologies that are used in modern web application development are quite vast and change frequently, thereby rendering any static knowledge one may possess about any given language or framework obsolete over a relatively short period of time, making it necessary to learn, unlearn, and relearn almost constantly.  This is where I tend to excel.  I love learning new technologies, languages, and tools.  If you are looking for someone to take on a project or a position that requires knowledge of a certain technology you don’t see listed below, please make contact anyway.  I’d love an excuse to learn something new! 

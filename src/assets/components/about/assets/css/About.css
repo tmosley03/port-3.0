@@ -20,5 +20,6 @@
 }
 
 #about-img{
-    max-width: 300px;
+    max-width: 350px;
+    border-radius: 10pt;
 }

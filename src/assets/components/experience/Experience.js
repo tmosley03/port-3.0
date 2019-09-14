@@ -6,17 +6,17 @@ import './assets/css/Experience.css';
 
 function Experience() {
   return (
-    <div className="content-component col-lg-8 col-md-8 col-sm-6">
+    <div >
       <h1 className="component-header">EXPERIENCE</h1>
       <hr />
       <img id="tech-header-img" src="https://media.giphy.com/media/dbtDDSvWErdf2/giphy.gif" alt="" className="img-fluid" />
       <hr />
-      <div id="exp-content" className=" ">
-        <p className="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium ac sapien ut feugiat. Ut sagittis tellus vitae dui consectetur, nec tempus neque pellentesque. Vivamus eu diam id massa pulvinar ultrices. Curabitur ac laoreet nunc. Morbi eu suscipit magna. Morbi quis justo mollis, pulvinar nisl eget, pellentesque turpis. Maecenas id nibh ac purus viverra semper a auctor quam. Etiam elementum tortor sit amet tortor ultrices commodo. Nulla tincidunt diam diam, non dapibus nunc rutrum ut. Cras nec arcu a dui fringilla commodo. Suspendisse tempor purus tincidunt finibus elementum.</p>
+      <div id="exp-content" className="exp-content">
+        {/* <p className="text-justify col-lg-8 col-md-8 col-sm-6 exp-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium ac sapien ut feugiat. Ut sagittis tellus vitae dui consectetur, nec tempus neque pellentesque. Vivamus eu diam id massa pulvinar ultrices. Curabitur ac laoreet nunc. Morbi eu suscipit magna. Morbi quis justo mollis, pulvinar nisl eget, pellentesque turpis. Maecenas id nibh ac purus viverra semper a auctor quam. Etiam elementum tortor sit amet tortor ultrices commodo. Nulla tincidunt diam diam, non dapibus nunc rutrum ut. Cras nec arcu a dui fringilla commodo. Suspendisse tempor purus tincidunt finibus elementum.</p>
         <hr />
-        <br />
+        <br /> */}
 
-        <div id="card-container" className="container">
+        <div id="card-container" className="container content-component col-lg-8 col-md-8 col-sm-6">
             {/* 1 */}
             <div className="ex-card">
               <h2 className="card-header">Tech</h2>
@@ -72,28 +72,9 @@ function Experience() {
             </ul>
           </div>
 
-          {/* 5 */}
-          <div className="ex-card">
-            <h2 className="card-header ">Strategy</h2>
-            <hr />
-            <ul>
-              <li className="exp-bullets">Thing 1</li>
-              <li className="exp-bullets">Thing 2</li>
-              <li className="exp-bullets">Thing 3</li>
-            </ul>
-          </div>
+         
 
-          {/* 6 */}
-          <div className="ex-card">
-            <h2 className="card-header ">Community</h2>
-            <hr />
-            <ul>
-              <li className="exp-bullets">Thing 1</li>
-              <li className="exp-bullets">Thing 2</li>
-              <li className="exp-bullets">Thing 3</li>
-            </ul>
-          </div>  
-          
+         
       </div>
 
       </div>

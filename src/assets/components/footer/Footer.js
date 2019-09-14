@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div id="footer" className="row navbar-nav fixed-bottom">
         
-            <h1 className="text-center nav-text">website by Thomas Mosley | copyrirght 	&#169; 2019 </h1>
+            <p className="text-center footer-txt">“This is the real secret of life — to be completely engaged with what you are doing in the here and now. <br/>And instead of calling it work, realize it is play.” – Alan Watts</p>
               
     </div>
 
