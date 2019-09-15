@@ -24,8 +24,10 @@ p {
 }
 
 .tech-header {
+    display: inline-block;
     color: rgb(255, 255, 255);
     font-family: 'Questrial', sans-serif;
+    border-bottom: solid 2px white;
 }
 
 #tech-header-img {

@@ -12,17 +12,18 @@ function Experience() {
         id="tech-header-img"
         src="https://media.giphy.com/media/dbtDDSvWErdf2/giphy.gif"
         alt=""
-        className="img-fluid"
-      />
-      <hr />
-
-      <div
+        className="img-fluid"/>
+<hr/>
+<div
         id="exp-content"
-        className="content-component col-lg-8 col-md-6 col-xs-4 exp-content"
-      >
+        className="content-component col-lg-8 col-md-6 col-xs-4 exp-content">
         <p className="text-justify">
         My career path has aforded me a wide variety of experiences across multiple industries.  From mastering soft skills as a spokesman at live events across the U.S. for Toyota Motor CO. to Shapening hard skills as developer at Real Page Inc., the leading global provider of software to the real estate industry, I am able to draw from a deep well of experience and make a real contribution to any project or team.
         </p>
+        
+      <hr />
+
+     
         <h2 className="exp-header">Highlights</h2>
 
         <div className="exp-div-container">

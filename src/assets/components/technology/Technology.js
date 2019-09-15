@@ -59,9 +59,9 @@ function Technology() {
       <p className=" text-justify tech-component col-lg-8 col-md-8 col-sm-6 ">
       The icons below represent an overview of the tools and technologies I am most familiar with and have used up to this point.  With the exception of vanilla Javascript, I learned most of what is listed below on  the job as the need arose.  Why is that relevant?  Well, the tools and technologies that are used in modern web application development are quite vast and change frequently, thereby rendering any static knowledge one may possess about any given language or framework obsolete over a relatively short period of time, making it necessary to learn, unlearn, and relearn almost constantly.  This is where I tend to excel.  I love learning new technologies, languages, and tools.  If you are looking for someone to take on a project or a position that requires knowledge of a certain technology you don’t see listed below, please make contact anyway.  I’d love an excuse to learn something new! 
       </p>
-      <hr />
+      
       <div className="lang-div tech-component col-lg-8 col-md-8 col-sm-6 ">
-        
+      <hr />
         <h2 className="tech-header">Front End</h2>
         <br/>
         {/* ======================================================== */}
@@ -74,7 +74,7 @@ function Technology() {
         <img  src={bootstrap} alt="" className="img-fluid lang-icon" />
         <img  src={materialize} alt="" className="img-fluid lang-icon" />
       <br/>
-      <hr/>
+      <br/>
       <h2 className="tech-header">Back End</h2>
       <br/>
       {/* ======================================================== */}
@@ -88,7 +88,7 @@ function Technology() {
       <img  src={firebase} alt="" className="img-fluid lang-icon" />
       <img  src={mamp} alt="" className="img-fluid lang-icon" />
       <br/>
-      <hr/>
+      <br/>
       <h2 className="tech-header">Build Tools</h2>
       <br/>
       {/* ======================================================== */}
@@ -98,7 +98,7 @@ function Technology() {
       <img  src={npm} alt="" className="img-fluid lang-icon" />
       
       <br/>
-      <hr/>
+      <br/>
       <h2 className="tech-header">Other Tech / WYSIWYG Platforms</h2>
       <br/>
       {/* ======================================================== */}
@@ -112,7 +112,7 @@ function Technology() {
       <img  src={wix} alt="" className="img-fluid lang-icon" />
 
       <br/>
-      <hr/>
+      <br/>
       <h2 className="tech-header">Operating Systems</h2>
       <br/>
       {/* ======================================================== */}
@@ -121,7 +121,7 @@ function Technology() {
       <img  src={windows} alt="" className="img-fluid lang-icon" />
       {/* ======================================================== */}
     
-      <hr />
+      <hr/>
       
       </div>
     </div>
