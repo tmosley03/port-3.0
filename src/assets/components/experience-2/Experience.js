@@ -51,7 +51,8 @@ function Experience() {
               <br />
               <li className="exp-text"><span>Spokesman</span><br/>@ Toyota Motor Corp. (Natnl. Auto Show Team)</li>
               <br />
-              <li className="exp-text"><span>Photographer</span><br/>@ Wolfgang Pucks 560 in Dallas </li>
+              <li className="exp-text"><span>Event Planning</span><br/>@ 504 Bar & Grill </li>
+             
              
             </ul>
           </div>
@@ -61,9 +62,9 @@ function Experience() {
             <ul>
             <li className="exp-text"><span>Creative Director</span><br/>@ Art Of Mind Productions</li>
               <br />
-              <li className="exp-text"><span>Spokesman</span><br/>@ Toyota Motor Corp. (Natnl. Auto Show Team)</li>
+              <li className="exp-text"><span>Director of Photography</span><br/>@ On The Rocks Coctails (OTR)</li>
               <br />
-              <li className="exp-text"><span>Photographer</span><br/>@ Wolfgang Pucks 560 in Dallas </li>
+              <li className="exp-text"><span>Photographer</span><br/>@ Omni Hotel and Convention Center Downtown, Dallas </li>
             </ul>
           </div>
         </div>

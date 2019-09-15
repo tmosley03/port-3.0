@@ -28,3 +28,8 @@ p {
 #contact-text {
     margin: auto;
 }
+
+.contact-icon{
+    height: 55px;
+    margin: 20px;
+}
