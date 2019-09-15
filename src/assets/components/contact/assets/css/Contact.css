@@ -33,3 +33,8 @@ p {
     height: 55px;
     margin: 20px;
 }
+
+.contact-icon-div{
+    display:inline-block;
+    margin: 20px;
+}

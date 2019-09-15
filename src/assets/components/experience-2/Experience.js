@@ -21,12 +21,7 @@ function Experience() {
         className="content-component col-lg-8 col-md-6 col-xs-4 exp-content"
       >
         <p className="text-justify">
-          Well, the way they make shows is, they make one show. That show's
-          called a pilot. Then they show that show to the people who make shows,
-          and on the strength of that one show they decide if they're going to
-          make more shows. Some pilots get picked and become television
-          programs. Some don't, become nothing. She starred in one of the ones
-          that became nothing.
+        My career path has aforded me a wide variety of experiences across multiple industries.  From mastering soft skills as a spokesman at live events across the U.S. for Toyota Motor CO. to Shapening hard skills as developer at Real Page Inc., the leading global provider of software to the real estate industry, I am able to draw from a deep well of experience and make a real contribution to any project or team.
         </p>
         <h2 className="exp-header">Highlights</h2>
 
