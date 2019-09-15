@@ -69,7 +69,7 @@ function Experience() {
         </div>
         <br />
         <br />
-{/* add icon here */}
+
 
         <a
           href="https://drive.google.com/file/d/1WNWBlzLdPE24ujr-yxiUgl-yBA-nkk9e/view?usp=sharing"
