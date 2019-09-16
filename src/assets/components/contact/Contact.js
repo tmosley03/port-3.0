@@ -3,6 +3,8 @@ import './assets/css/Contact.css';
 import linkedin from './assets/images/linkedin.png'
 import email from './assets/images/email.png'
 import github from './assets/images/github.png'
+import { Spring } from 'react-spring/renderprops'
+
 // import contact from './assets/images/contact.jpeg';
 
 
@@ -11,7 +13,14 @@ import github from './assets/images/github.png'
 
 function Contact() {
   return (
-    <div className="">
+
+<Spring
+      from={{ opacity: 0 }}
+      to={{ opacity:1}}
+    >
+    {props =>(
+      <div style={props}>
+      <div className="">
       <h1 className="component-header">Contact</h1>
       <hr />
       
@@ -47,6 +56,11 @@ function Contact() {
       <hr/>
        </div>
     </div>
+      </div>
+    )}
+    </Spring>
+
+   
 
   );
 }

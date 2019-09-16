@@ -1,5 +1,6 @@
 import React from 'react';
 import './assets/css/Technology.css';
+import { Spring } from 'react-spring/renderprops'
 // import technology from './assets/images/technology.jpg'
 // =========================================
 import ajax from './assets/images/tech-icons/ajax.png'
@@ -19,6 +20,7 @@ import materialize from './assets/images/tech-icons/materialize.png'
 import mongo from './assets/images/tech-icons/mongo.png'
 import node from './assets/images/tech-icons/node.png'
 import npm from './assets/images/tech-icons/npm.png'
+
 // =========================================
 import parcel from './assets/images/tech-icons/parcel.png'
 import photoshop from './assets/images/tech-icons/photoshop.png'
@@ -48,7 +50,15 @@ import mamp from './assets/images/tech-icons/mamp.png'
 
 function Technology() {
   return (
-    <div id="tech-content-div" className="content-component ">
+
+<Spring
+      from={{ opacity: 0 }}
+      to={{ opacity:1}}
+    >
+    {props =>(
+      <div style={props}>
+      
+      <div id="tech-content-div" className="content-component ">
     
 
       <h1 className="component-header">TECHNOLOGY</h1>
@@ -125,6 +135,13 @@ function Technology() {
       
       </div>
     </div>
+
+      </div>
+    )}
+    </Spring>
+
+
+    
 
   );
 }

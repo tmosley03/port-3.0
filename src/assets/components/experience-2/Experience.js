@@ -2,10 +2,20 @@ import React from "react";
 import "./assets/css/Experience.css";
 import resume from "./assets/images/resume.png"
 //import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+//import {useTransition, animated} from 'react-spring'
+import { Spring } from 'react-spring/renderprops'
 
 function Experience() {
   return (
-    <div>
+
+<Spring
+      from={{ opacity: 0 }}
+      to={{ opacity:1}}
+    >
+    {props =>(
+      <div style={props}>
+      
+      <div>
       <h1 className="component-header">EXPERIENCE</h1>
       <hr />
       <img
@@ -79,6 +89,12 @@ function Experience() {
         <hr />
       </div>
     </div>
+
+      </div>
+    )}
+    </Spring>
+
+   
   );
 }
 

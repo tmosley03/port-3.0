@@ -2,11 +2,20 @@ import React from 'react';
 import './assets/css/About.css';
 //import about from './assets/images/about.jpg'
 import thomas from './assets/images/thomas.jpg';
+import { Spring } from 'react-spring/renderprops'
+
 
 
 function About() {
   return (
-    <div className="content-component">
+
+<Spring
+      from={{ opacity: 0 }}
+      to={{ opacity:1}}
+    >
+    {props =>(
+      <div style={props}>
+      <div className="content-component">
       {/* <hr /> */}
 
       <h1 className="component-header">About</h1>
@@ -27,6 +36,11 @@ function About() {
 
 
     </div>
+      </div>
+    )}
+    </Spring>
+
+   
 
   );
 }

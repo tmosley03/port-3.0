@@ -15,7 +15,9 @@ import Footer from './assets/components/footer/Footer'
 // dependencies
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 // import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
-import { TransitionGroup, CSSTransition } from "react-transition-group";
+// import { TransitionGroup, CSSTransition } from "react-transition-group";
+import { Spring } from 'react-spring/renderprops'
+//import {useTransition, animated} from 'react-spring'
 
 // import logo from './logo.svg';
 import './App.css';
@@ -24,7 +26,13 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Spring
+      from={{ opacity: 0 }}
+      to={{ opacity:1}}
+    >
+    {props =>(
+      <div style={props}>
+      <Router>
       <div className="App">
         <Header />
         <Sidebar />
@@ -52,6 +60,11 @@ function App() {
         <Footer />
       </div>
     </Router>
+      </div>
+    )}
+    </Spring>
+    
+    
 
   );
 }
