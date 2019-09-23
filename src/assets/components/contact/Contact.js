@@ -24,7 +24,7 @@ function Contact() {
       <h1 className="component-header">Contact</h1>
       <hr />
       
-      <img src="https://media.giphy.com/media/BVStb13YiR5Qs/giphy.gif" alt="" />
+      {/* <img src="https://media.giphy.com/media/BVStb13YiR5Qs/giphy.gif" alt="" /> */}
       <br/>
 
       <div className="contact-icon-div">

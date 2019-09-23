@@ -114,3 +114,11 @@ hr {
         transform: rotate(360deg);
     }
 }
+
+/* Media queries */
+
+@media(max-width: 1375px){
+    .sidenav{
+        display: none;
+    }
+}

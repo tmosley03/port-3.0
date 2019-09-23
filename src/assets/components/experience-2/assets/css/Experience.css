@@ -8,11 +8,12 @@ font-family: 'Rock Salt', cursive;
  */
 
 .exp-header{
+    display: inline-block;
     font-size: 15pt;
     color:white;
     /* text-align: center; */
     font-weight: bolder;
-    font-style: und
+   border-bottom: solid 2px white;
 }
 
 .exp-text{
