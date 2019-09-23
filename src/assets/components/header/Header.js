@@ -10,7 +10,7 @@ const header = () => {
        
         <nav id= "header" className= "navbar fixed-top">
            
-          <img id="name" className="navbar-brand"src={name} alt="" />
+          <img id="name" className="fluid-img navbar-brand"src={name} alt="" />
           <h4  id="header-text" className="d-inline-block align-top">web developer </h4>
 
         </nav>

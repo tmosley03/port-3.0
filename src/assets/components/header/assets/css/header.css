@@ -33,3 +33,14 @@ font-family: 'Rock Salt', cursive;
 #name {
     margin-left: 80px;
 }
+
+/* Media queries */
+
+@media(max-width: 500px){
+    #name{
+       /* display:block; */
+       float: none;
+       margin: auto;
+       width: 150px;
+    }
+}
