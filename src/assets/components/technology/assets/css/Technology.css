@@ -41,3 +41,10 @@ p {
 .tech-component{
     margin: auto;
 }
+
+
+@media(max-width: 500px){
+   .lang-icon{
+       height:75px;
+    }
+}
