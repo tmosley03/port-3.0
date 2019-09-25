@@ -11,6 +11,7 @@ const NavMenu = (props) => {
             <div>
 
                 <img id="headshot" src={headshot} alt="" className="img-fluid" />
+                <hr/>
                 <ul>
                     {/* <Link to="/" className="nav-text  hvr-grow  text-uppercase">home</Link> */}
                     <Link to="about" className="nav-text drawer-link hvr-grow  text-uppercase">

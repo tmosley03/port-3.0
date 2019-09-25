@@ -1,4 +1,5 @@
 .toggle-btn{
+    display: none;
     background: transparent;
     border: none;
     cursor: pointer;
@@ -13,4 +14,12 @@
     height: 1px;
     /* border: 1px solid white; */
     margin: 8px 0px 8px 0px;
+}
+
+/* Media queries */
+
+@media(max-width: 1375px){
+    .toggle-btn{
+        display: inline-block;
+    }
 }
