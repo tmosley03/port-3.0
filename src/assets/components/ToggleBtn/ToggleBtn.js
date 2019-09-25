@@ -1,17 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './assets/css/ToggleBtn.css';
 
-class ToggleBtn extends Component {
+const ToggleBtn = (props) => {
 
-    render(){
+    
         return(     
-            <button className="btn toggle-btn">
+            <div>
+            <button className="btn toggle-btn" onClick ={props.click}>
                 <div className="toggle-line"></div>
                 <div className="toggle-line"></div>
                 <div className="toggle-line"></div>
             </button>
+            </div>
         )
-    }
+    
 }
 
 export default ToggleBtn;

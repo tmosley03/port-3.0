@@ -8,7 +8,7 @@ import ToggleBtn from '../ToggleBtn/ToggleBtn';
 
 
 
-const header = () => {
+const header =  (props) => {
     return(
 
 
@@ -16,7 +16,7 @@ const header = () => {
         <nav id= "header" className= "navbar fixed-top">
           {/* <img id="name" className="fluid-img navbar-brand"src={name} alt="" /> */}
           <h4  id="header-text" className="d-inline-block align-top">web developer </h4>
-          <ToggleBtn />
+          <ToggleBtn click ={ props.drawerClickHandler}/>
         </nav>
        </div>
     )

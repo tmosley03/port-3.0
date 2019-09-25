@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 // components
 import Header from './assets/components/header/Header'
 import Sidebar from './assets/components/sidebar/Sidebar';
@@ -27,7 +27,32 @@ import './App.css';
 
 
 
-function App() {
+class App extends Component  {
+
+  state = {
+    drawerIsOpen: false
+  }
+
+  drawerToggler = () => {
+    this.setState((prevState) =>{
+      return {drawerIsOpen: !prevState.drawerIsOpen};      
+    });
+    console.log('toggle!')
+  };
+
+  backdropClickHandler = () => {
+    this.setState();
+  }
+
+  render(){
+    let drawer;
+    let backdrop;
+
+    if(this.state.drawerIsOpen){
+      drawer =   <Drawer />;
+      backdrop = <Backdrop />;
+    }
+
   return (
     <Spring
       from={{ opacity: 0 }}
@@ -37,15 +62,11 @@ function App() {
       <div style={props}>
       <Router>
       <div className="App">
-      <Backdrop />
-        <Header />
+      {drawer}
+      {backdrop}
+       <Header drawerClickHandler = {this.drawerToggler} />
         <Sidebar />
-        <Drawer />
-      
-        {/* <MobileMenu /> */}
-
-        <div className="container">
-        
+        <div className="container">    
           <div className="row">
              {/* spinner */}
              {/* <div className="spinner-grow" id="spinner" role="status">
@@ -54,7 +75,6 @@ function App() {
 
             <Switch>
               <Route path="/" exact component={About} />
-
               <Route path="/about" component={About} />
               <Route path="/technology" component={Technology} />
               <Route path="/experience" component={Experience} />
@@ -76,5 +96,5 @@ function App() {
 
   );
 }
-
+}
 export default App;  
