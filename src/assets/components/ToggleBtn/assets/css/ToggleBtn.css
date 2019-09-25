@@ -1,0 +1,16 @@
+.toggle-btn{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0px;
+    
+}
+
+
+.toggle-line{
+    background-color:white;
+    width: 30px;
+    height: 1px;
+    /* border: 1px solid white; */
+    margin: 8px 0px 8px 0px;
+}

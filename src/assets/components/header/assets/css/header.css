@@ -8,6 +8,9 @@ font-family: 'Rock Salt', cursive;
  */
 
 #header {
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
     /* background: url('../css/header-pic.jpg'); */
     /* background-position: 100% 100%; */
     background-repeat: no-repeat;
@@ -24,15 +27,13 @@ font-family: 'Rock Salt', cursive;
 
 #header-text {
     color: white;
-    margin: auto;
-    margin-right: 80px;
     font-family: 'Rajdhani', sans-serif;
-    vertical-align: middle;
+   
 }
-
+/* 
 #name {
     margin-left: 80px;
-}
+} */
 
 /* Media queries */
 

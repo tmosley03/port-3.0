@@ -43,8 +43,16 @@ p {
 }
 
 
+/* Media Queries */
+
 @media(max-width: 500px){
    .lang-icon{
        height:75px;
     }
 }
+
+@media(max-width: 475px){
+    .lang-icon{
+        height:50p/x;
+     }
+ }

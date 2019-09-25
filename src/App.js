@@ -2,6 +2,9 @@ import React from 'react';
 // components
 import Header from './assets/components/header/Header'
 import Sidebar from './assets/components/sidebar/Sidebar';
+import Drawer from './assets/components/Drawer/Drawer';
+import Backdrop from './assets/components/Backdrop/Backdrop';
+// import MobileMenu from './assets/components/MobileMenu/MobileMenu';
 // import RSidebar from './assets/components/RSidebar/RSidebar';
 // import TempComp from './assets/components/temp-comp/TempComp';
 // pages
@@ -34,10 +37,15 @@ function App() {
       <div style={props}>
       <Router>
       <div className="App">
+      <Backdrop />
         <Header />
         <Sidebar />
+        <Drawer />
+      
+        {/* <MobileMenu /> */}
 
         <div className="container">
+        
           <div className="row">
              {/* spinner */}
              {/* <div className="spinner-grow" id="spinner" role="status">
