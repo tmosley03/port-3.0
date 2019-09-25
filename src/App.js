@@ -41,7 +41,7 @@ class App extends Component  {
   };
 
   backdropClickHandler = () => {
-    this.setState();
+    this.setState({drawerIsOpen: false});
   }
 
   render(){
@@ -50,7 +50,7 @@ class App extends Component  {
 
     if(this.state.drawerIsOpen){
       drawer =   <Drawer />;
-      backdrop = <Backdrop />;
+      backdrop = <Backdrop click= {this.backdropClickHandler} />;
     }
 
   return (

@@ -79,16 +79,7 @@ hr {
     width: 300px;
 } */
 
-#headshot {
-    width: 450px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    float: none;
-    border: 1px solid white;
-    border-radius: 5px;
-}
+
 
 .App-logo {
     animation: App-logo-spin infinite 20s linear;
