@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 // components
 import Header from './assets/components/header/Header'
 import Sidebar from './assets/components/sidebar/Sidebar';
+// import NavMenu from './assets/components/NavMenu/NavMenu'
 import Drawer from './assets/components/Drawer/Drawer';
 import Backdrop from './assets/components/Backdrop/Backdrop';
 // import MobileMenu from './assets/components/MobileMenu/MobileMenu';
@@ -37,20 +39,23 @@ class App extends Component  {
     this.setState((prevState) =>{
       return {drawerIsOpen: !prevState.drawerIsOpen};      
     });
-    console.log('toggle!')
+    console.log('toggle!');
   };
 
   backdropClickHandler = () => {
     this.setState({drawerIsOpen: false});
+    console.log('bd close');
   }
 
   render(){
     let drawer;
     let backdrop;
+    let menu
 
     if(this.state.drawerIsOpen){
-      drawer =   <Drawer />;
+      drawer =   <Drawer click= {this.backdropClickHandler}/>;
       backdrop = <Backdrop click= {this.backdropClickHandler} />;
+      menu = <Link to='about' click= {this.backdropClickHandler}/>
     }
 
   return (
@@ -62,18 +67,16 @@ class App extends Component  {
       <div style={props}>
       <Router>
       <div className="App">
+      
       {drawer}
+      {menu}
       {backdrop}
+
        <Header drawerClickHandler = {this.drawerToggler} />
         <Sidebar />
         <div className="container">    
           <div className="row">
-             {/* spinner */}
-             {/* <div className="spinner-grow" id="spinner" role="status">
-                <span className="sr-only">Loading...</span>
-              </div> */}
-
-            <Switch>
+              <Switch>
               <Route path="/" exact component={About} />
               <Route path="/about" component={About} />
               <Route path="/technology" component={Technology} />

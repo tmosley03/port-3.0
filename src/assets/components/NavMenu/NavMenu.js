@@ -3,19 +3,22 @@ import { Link } from "react-router-dom";
 import './assets/css/NavMenu.css';
 import logo from './assets/images/logo.svg'
 import headshot from './assets/images/headshot.jpg'
+// import Backdrop from '../Backdrop/Backdrop';
 
 const NavMenu = (props) => {
 
-    
+  
         return(     
-            <div>
-
+            <div onClick={ props.click }>
                 <img id="headshot" src={headshot} alt="" className="img-fluid" />
                 <hr/>
                 <ul>
                     {/* <Link to="/" className="nav-text  hvr-grow  text-uppercase">home</Link> */}
-                    <Link to="about" className="nav-text drawer-link hvr-grow  text-uppercase">
-                        About
+
+
+
+                    <Link  to="about" className="nav-text drawer-link hvr-grow  text-uppercase">
+                       About                 
                     </Link>
                     <Link to="technology" className="nav-text drawer-link hvr-grow  text-uppercase">
                         Technology
@@ -23,7 +26,11 @@ const NavMenu = (props) => {
                     <Link to="experience" className="nav-text drawer-link hvr-grow  text-uppercase">
                         Experience
                     </Link>
+
+
                     {/* <Link to="interests" className="nav-text  hvr-grow  text-uppercase">Interests</Link> */}
+
+
                     <Link to="contact" className="nav-text drawer-link hvr-grow  text-uppercase">
                         Contact
                     </Link>

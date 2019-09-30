@@ -1,15 +1,15 @@
-import React, { Component } from "react";
+import React from "react";
 import NavMenu from '../NavMenu/NavMenu';
 import "./assets/css/Drawer.css";
 
-class Drawer extends Component {
+const Drawer = (props) =>( {
   render() {
     return (
       <nav className='#' id='drawer'>
-        <NavMenu />
+        <NavMenu click={props.click}  />
       </nav>
     );
   }
 }
-
+)
 export default Drawer;

@@ -1,11 +1,14 @@
 import React from 'react';
 import './assets/css/Backdrop.css';
+import { Link } from "react-router-dom";
+
+//why the hell does this work????? Come back to this!!!!
 
 const Backdrop = (props) => {
 
     
         return(     
-            <div id='backdrop' onClick={ props.click }></div>
+         <Link  to="technology">  <div id='backdrop' onClick={ props.click }></div></Link> 
         )
     
 }
