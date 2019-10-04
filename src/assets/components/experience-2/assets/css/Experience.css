@@ -30,7 +30,7 @@ font-family: 'Rock Salt', cursive;
 .exp-div{
     display: inline-block;  
     /* margin: 25px; */
-    /* max-width: 225px; */
+    max-width: 33%;
     /* border: solid 1px white; */
     /* align-content: center; */
     float: none;
