@@ -63,13 +63,11 @@ class App extends Component  {
     {props =>(
       <div style={props}>
       <Router>
-
       <div className="App">      
     
-      {backdrop}
+      {backdrop}  
       
-      
-       <Header drawerClickHandler = {this.drawerToggler} />
+        <Header drawerClickHandler = {this.drawerToggler} />
         <Sidebar />
         <Drawer show = { this.state.drawerIsOpen }  click = {this.backdropClickHandler} />
         <div className="container">    
@@ -92,9 +90,6 @@ class App extends Component  {
       </div>
     )}
     </Spring>
-    
-    
-
   );
 }
 }
