@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
 // components
 import Header from './assets/components/header/Header'
 import Sidebar from './assets/components/sidebar/Sidebar';
@@ -39,7 +38,7 @@ class App extends Component  {
     this.setState((prevState) =>{
       return {drawerIsOpen: !prevState.drawerIsOpen};      
     });
-    console.log('toggle!');
+    console.log('drawer toggle function!');
   };
 
   backdropClickHandler = () => {
@@ -48,15 +47,13 @@ class App extends Component  {
   }
 
   render(){
-    let drawer;
     let backdrop;
-    let menu
+     
 
     if(this.state.drawerIsOpen){
-      drawer =   <Drawer click= {this.backdropClickHandler}/>;
-      backdrop = <Backdrop click= {this.backdropClickHandler} />;
-      menu = <Link to='about' click= {this.backdropClickHandler}/>
-    }
+       backdrop = <Backdrop click= {this.backdropClickHandler} />;
+      
+     }
 
   return (
     <Spring
@@ -66,14 +63,15 @@ class App extends Component  {
     {props =>(
       <div style={props}>
       <Router>
-      <div className="App">
-      
-      {drawer}
-      {menu}
-      {backdrop}
 
+      <div className="App">      
+    
+      {backdrop}
+      
+      
        <Header drawerClickHandler = {this.drawerToggler} />
         <Sidebar />
+        <Drawer show = { this.state.drawerIsOpen }  click = {this.backdropClickHandler} />
         <div className="container">    
           <div className="row">
               <Switch>
@@ -90,7 +88,7 @@ class App extends Component  {
         {/* <RSidebar /> */}
         <Footer />
       </div>
-    </Router>
+      </Router>
       </div>
     )}
     </Spring>
@@ -100,4 +98,5 @@ class App extends Component  {
   );
 }
 }
-export default App;  
+export default App 
+

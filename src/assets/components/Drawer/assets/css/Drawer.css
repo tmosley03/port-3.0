@@ -1,4 +1,4 @@
-#drawer{
+.drawer{
     background-color: rgb(61, 61, 61);
     box-shadow: 1px -20px 20px rgba(0, 0, 0, 0.562);
     width: 70%;
@@ -10,4 +10,13 @@
     top: 0;
     right: 0;
     padding-top: 80px;
+    transform: translate(100%);
+    transition: width 5s ;
+    
+}
+
+.open-drawer{
+    transform: translateX(0);
+    
+
 }

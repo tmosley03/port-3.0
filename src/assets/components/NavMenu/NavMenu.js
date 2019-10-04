@@ -9,27 +9,22 @@ const NavMenu = (props) => {
 
   
         return(     
-            <div onClick={ props.click }>
+            <div onClick ={ props.click }>
+
                 <img id="headshot" src={headshot} alt="" className="img-fluid" />
                 <hr/>
                 <ul>
-                    {/* <Link to="/" className="nav-text  hvr-grow  text-uppercase">home</Link> */}
-
-
-
                     <Link  to="about" className="nav-text drawer-link hvr-grow  text-uppercase">
                        About                 
                     </Link>
+
                     <Link to="technology" className="nav-text drawer-link hvr-grow  text-uppercase">
                         Technology
                     </Link>
+                    
                     <Link to="experience" className="nav-text drawer-link hvr-grow  text-uppercase">
                         Experience
                     </Link>
-
-
-                    {/* <Link to="interests" className="nav-text  hvr-grow  text-uppercase">Interests</Link> */}
-
 
                     <Link to="contact" className="nav-text drawer-link hvr-grow  text-uppercase">
                         Contact
