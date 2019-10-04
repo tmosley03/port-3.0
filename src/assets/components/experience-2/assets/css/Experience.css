@@ -17,11 +17,13 @@ font-family: 'Rock Salt', cursive;
 }
 
 .exp-text{
+    font-size: 10pt;
     color: white;
     text-align: center;
 }
 
 .exp-text span{
+    font-size: 11pt;
     font-weight: bold;
     color: rgb(145, 191, 243);
     font-style: italic;
@@ -49,10 +51,10 @@ ul{
     margin-top: 20px;
 }
 
-.bdr-lft{
+/* .bdr-lft{
     border-left: solid 1px white;
     border-right: solid 1px white;
-}
+} */
 
 #res-icon{
     height: 90px;
