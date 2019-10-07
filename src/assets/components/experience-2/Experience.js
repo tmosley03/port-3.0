@@ -84,7 +84,7 @@ function Experience() {
           rel="noopener noreferrer"
         >
         <img id="res-icon" src={resume} alt="resume"/>
-          <p className="card-header">View Full Resume</p>
+          <p className="">View Full Resume</p>
         </a>
         <hr />
       </div>
