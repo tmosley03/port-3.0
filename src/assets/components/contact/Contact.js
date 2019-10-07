@@ -30,19 +30,19 @@ function Contact() {
       <div className="contact-icon-div">
       <a href="mailto: tlm3dev@gmail.com" target="_blank" rel="noopener noreferrer">
       <img src={email} alt="email" className="contact-icon"/>
-      <p>tlm3dev@gmail.com</p>
+      <p className="contact-text">tlm3dev@gmail.com</p>
       </a>
       </div>
       <div className="contact-icon-div">
       <a href="https://github.com/tmosley03" target="_blank" rel="noopener noreferrer">
       <img src={github} alt="github" className="contact-icon"/>
-      <p>github.com/tmosley03</p>
+      <p className="contact-text">github.com/tmosley03</p>
       </a>
       </div>
       <div className="contact-icon-div">
       <a href="https://www.linkedin.com/in/tmosley03/" target="_blank" rel="noopener noreferrer">
       <img src={linkedin} alt="linkedin" className="contact-icon"/>
-      <p>linkedin.com/in/tmosley03</p>
+      <p className="contact-text">linkedin.com/in/tmosley03</p>
       </a>
       </div>
 
