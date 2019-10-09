@@ -72,17 +72,17 @@ function Technology() {
       
       <div className="lang-div tech-component col-lg-8 col-md-8 col-sm-6 ">
       <hr />
-        <h2 className="tech-header">Front End</h2>
-        <br/>
-        {/* ======================================================== */}
-        <img  src={html} alt="" className="img-fluid lang-icon" />
-        <img  src={react} alt="" className="img-fluid lang-icon" />
-        <img  src={vue} alt="" className="img-fluid lang-icon" />
-        {/* EXPRESS JS */}
-        <img  src={jquery} alt="" className="img-fluid lang-icon" />
-        <img  src={ajax} alt="" className="img-fluid lang-icon" />
-        <img  src={bootstrap} alt="" className="img-fluid lang-icon" />
-        <img  src={materialize} alt="" className="img-fluid lang-icon" />
+      <h2 className="tech-header">Front End</h2>
+      <br/>
+      {/* ======================================================== */}
+      <img  src={html} alt="" className="img-fluid lang-icon" />
+      <img  src={react} alt="" className="img-fluid lang-icon" />
+      <img  src={vue} alt="" className="img-fluid lang-icon" />
+      {/* EXPRESS JS */}
+      <img  src={jquery} alt="" className="img-fluid lang-icon" />
+      <img  src={ajax} alt="" className="img-fluid lang-icon" />
+      <img  src={bootstrap} alt="" className="img-fluid lang-icon" />
+      <img  src={materialize} alt="" className="img-fluid lang-icon" />
       <br/>
       <br/>
       <h2 className="tech-header">Back End</h2>
@@ -106,21 +106,7 @@ function Technology() {
       <img  src={parcel} alt="" className="img-fluid lang-icon" />
       <img  src={yarn} alt="" className="img-fluid lang-icon" />
       <img  src={npm} alt="" className="img-fluid lang-icon" />
-      
-      <br/>
-      <br/>
-      <h2 className="tech-header">Other Tech / WYSIWYG Platforms</h2>
-      <br/>
-      {/* ======================================================== */}
-      <img  src={jira} alt="" className="img-fluid lang-icon" />
-      <img  src={git} alt="" className="img-fluid lang-icon" />
-      <img  src={vm} alt="" className="img-fluid lang-icon" />
-      <img  src={salesforce} alt="" className="img-fluid lang-icon" />
-      <img  src={photoshop} alt="" className="img-fluid lang-icon" />
-      <img  src={premiere} alt="" className="img-fluid lang-icon" />
-      <img  src={wordpress} alt="" className="img-fluid lang-icon" />
-      <img  src={wix} alt="" className="img-fluid lang-icon" />
-
+    
       <br/>
       <br/>
       <h2 className="tech-header">Operating Systems</h2>
@@ -129,6 +115,28 @@ function Technology() {
       <img  src={ubuntu} alt="" className="img-fluid lang-icon" />
       <img  src={mac} alt="" className="img-fluid lang-icon" />
       <img  src={windows} alt="" className="img-fluid lang-icon" />
+      {/* ======================================================== */}
+      <br/>
+      <br/>
+      <h2 className="tech-header">WYSIWYG Platforms</h2>
+      <br/>
+      {/* ======================================================== */}
+     
+      <img  src={wordpress} alt="" className="img-fluid lang-icon" />
+      <img  src={wix} alt="" className="img-fluid lang-icon" />
+
+      
+      <br/>
+      <br/>
+      <h2 className="tech-header">Other Tech</h2>
+      <br/>
+      {/* ======================================================== */}
+      <img  src={jira} alt="" className="img-fluid lang-icon" />
+      <img  src={git} alt="" className="img-fluid lang-icon" />
+      <img  src={vm} alt="" className="img-fluid lang-icon" />
+      <img  src={salesforce} alt="" className="img-fluid lang-icon" />
+      <img  src={photoshop} alt="" className="img-fluid lang-icon" />
+      <img  src={premiere} alt="" className="img-fluid lang-icon" />
       {/* ======================================================== */}
     
       <hr/>

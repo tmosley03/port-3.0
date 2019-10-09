@@ -20,7 +20,7 @@ function Experience() {
       <hr />
       <img
         id="tech-header-img"
-        src="https://media.giphy.com/media/dbtDDSvWErdf2/giphy.gif"
+        src="https://media.giphy.com/media/Zcc3ZeeZ5ztdw1oNSB/giphy.gif"
         alt=""
         className="img-fluid"/>
 <hr/>

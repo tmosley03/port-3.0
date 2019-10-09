@@ -24,10 +24,11 @@ p {
 }
 
 .tech-header {
+    font-size: 18pt;
     display: inline-block;
     color: rgb(255, 255, 255);
     font-family: 'Questrial', sans-serif;
-    border-bottom: solid 2px white;
+    /* border-bottom: solid 2px white; */
 }
 
 #tech-header-img {
@@ -53,6 +54,6 @@ p {
 
 @media(max-width: 475px){
     .lang-icon{
-        height:50p/x;
+        height:50px;
      }
  }

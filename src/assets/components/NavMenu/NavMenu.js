@@ -9,8 +9,8 @@ const NavMenu = (props) => {
 
   
         return(     
-            <div onClick ={ props.click }>
-
+            <div className="nav-wrapper" onClick ={ props.click }>
+                <h2 className="menu-brand-name">Thomas Mosley 3</h2>
                 <img id="headshot" src={headshot} alt="" className="img-fluid" />
                 <hr/>
                 <ul>
