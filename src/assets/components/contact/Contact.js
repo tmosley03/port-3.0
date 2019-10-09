@@ -27,6 +27,10 @@ function Contact() {
       <img className="contact-image" src="https://media.giphy.com/media/Zcc3ZeeZ5ztdw1oNSB/giphy.gif" alt="" />
       <br/>
 
+      
+
+      <hr />
+      <br />
       <div className="contact-icon-div">
       <a href="mailto: tlm3dev@gmail.com" target="_blank" rel="noopener noreferrer">
       <img src={email} alt="email" className="contact-icon"/>
@@ -45,8 +49,6 @@ function Contact() {
       <p className="contact-text">linkedin.com/in/tmosley03</p>
       </a>
       </div>
-
-      <hr />
       <div className="content-component col-lg-8 col-md-6 col-xs-4 ">
      
       <br />
