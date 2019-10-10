@@ -1,6 +1,7 @@
 import React from "react";
 import "./assets/css/Experience.css";
 import resume from "./assets/images/resume.png"
+import evolution from './assets/images/evolution.gif'
 //import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 //import {useTransition, animated} from 'react-spring'
 import { Spring } from 'react-spring/renderprops'
@@ -20,7 +21,7 @@ function Experience() {
       <hr />
       <img
         id="tech-header-img"
-        src="https://media.giphy.com/media/Zcc3ZeeZ5ztdw1oNSB/giphy.gif"
+        src={ evolution }
         alt=""
         className="img-fluid"/>
 <hr/>

@@ -3,6 +3,7 @@ import './assets/css/Contact.css';
 import linkedin from './assets/images/linkedin.png'
 import email from './assets/images/email.png'
 import github from './assets/images/github.png'
+import connect from './assets/images/connect.gif'
 import { Spring } from 'react-spring/renderprops'
 
 // import contact from './assets/images/contact.jpeg';
@@ -24,7 +25,7 @@ function Contact() {
       <h1 className="component-header">Contact</h1>
       <hr />
       
-      <img className="contact-image" src="https://media.giphy.com/media/Zcc3ZeeZ5ztdw1oNSB/giphy.gif" alt="" />
+      <img className="contact-image" src= {connect} alt="" />
       <br/>
 
       
