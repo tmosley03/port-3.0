@@ -43,3 +43,7 @@ p {
 .contact-image{
     max-width: 250px;
 }
+
+.contact-icon-wrapper{
+    margin: auto;
+}

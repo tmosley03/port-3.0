@@ -11,12 +11,16 @@
     right: 0;
     padding-top: 80px;
     transform: translate(100%);
-    transition: width 5s ;
+    transition: transform 500ms ease-in-out;
+    
+   
     
 }
 
 .open-drawer{
     transform: translateX(0);
+   
+  
     
 
 }

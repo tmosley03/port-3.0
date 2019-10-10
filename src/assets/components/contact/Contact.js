@@ -32,6 +32,7 @@ function Contact() {
 
       <hr />
       <br />
+      <div className="contact-icon-wrapper col-md-8 col-sm-12">
       <div className="contact-icon-div">
       <a href="mailto: tlm3dev@gmail.com" target="_blank" rel="noopener noreferrer">
       <img src={email} alt="email" className="contact-icon"/>
@@ -49,6 +50,7 @@ function Contact() {
       <img src={linkedin} alt="linkedin" className="contact-icon"/>
       <p className="contact-text">linkedin.com/in/tmosley03</p>
       </a>
+      </div>
       </div>
       <div className="content-component col-lg-8 col-md-6 col-xs-4 ">
      
