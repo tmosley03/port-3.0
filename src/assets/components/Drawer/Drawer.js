@@ -9,7 +9,7 @@ let drawerClasses = 'drawer';
 
 if (props.show ){
   drawerClasses = 'open-drawer drawer';
-   console.log("drawer class updated");
+  //  console.log("drawer class updated");
 }
 
 
@@ -21,4 +21,4 @@ if (props.show ){
 
 }
 
-export default Drawer;
+export default Drawer

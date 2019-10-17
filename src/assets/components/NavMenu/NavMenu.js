@@ -21,6 +21,10 @@ const NavMenu = (props) => {
                     <Link to="technology" className="nav-text drawer-link hvr-grow  text-uppercase">
                         Technology
                     </Link>
+
+                    <Link to="tech-liaison" className="nav-text drawer-link hvr-grow  text-uppercase">
+                        Tech Liaison
+                    </Link>
                     
                     <Link to="experience" className="nav-text drawer-link hvr-grow  text-uppercase">
                         Experience

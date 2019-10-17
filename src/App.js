@@ -1,19 +1,23 @@
 import React, { Component } from 'react';
+
 // components
-import Header from './assets/components/header/Header'
+import Header from './assets/components/header/Header';
 import Sidebar from './assets/components/sidebar/Sidebar';
+import TechLiaison from './assets/components/tech-liaison/TechLiaison';
 // import NavMenu from './assets/components/NavMenu/NavMenu'
 import Drawer from './assets/components/Drawer/Drawer';
 import Backdrop from './assets/components/Backdrop/Backdrop';
 // import MobileMenu from './assets/components/MobileMenu/MobileMenu';
 // import RSidebar from './assets/components/RSidebar/RSidebar';
 // import TempComp from './assets/components/temp-comp/TempComp';
+
 // pages
 import About from './assets/components/about/About'
 import Contact from './assets/components/contact/Contact'
 import Experience from './assets/components/experience-2/Experience'
 import Interests from './assets/components/interests/Interests'
 import Technology from './assets/components/technology/Technology'
+// import TechLiaison from './assets/components/TechLiaison';
 // import Home from './assets/components/home/Home'
 import Footer from './assets/components/footer/Footer'
 // dependencies
@@ -38,12 +42,12 @@ class App extends Component  {
     this.setState((prevState) =>{
       return {drawerIsOpen: !prevState.drawerIsOpen};      
     });
-    console.log('drawer toggle function!');
+    // console.log('drawer toggle function!');
   };
 
   backdropClickHandler = () => {
     this.setState({drawerIsOpen: false});
-    console.log('bd close');
+    // console.log('bd close');
   }
 
   render(){
@@ -78,6 +82,7 @@ class App extends Component  {
               <Route path="/technology" component={Technology} />
               <Route path="/experience" component={Experience} />
               <Route path="/interests" component={Interests} />
+              <Route path="/tech-liaison" component={TechLiaison} />
               <Route path="/contact" component={Contact} />
             </Switch>
 

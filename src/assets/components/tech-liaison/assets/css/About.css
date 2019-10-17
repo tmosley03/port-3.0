@@ -1,0 +1,25 @@
+.component-header {
+    color: white;
+    display: inline-block;
+}
+
+.component-text {
+    text-align: justify;
+}
+
+#spinner {
+    width: 15rem;
+    height: 15rem;
+    background-color: white;
+    margin: auto;
+    margin-top: 25%;
+}
+
+#about-text-div {
+    margin: auto;
+}
+
+#about-img{
+    max-width: 250px;
+    border-radius: 10pt;
+}
