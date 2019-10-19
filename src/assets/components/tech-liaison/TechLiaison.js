@@ -28,12 +28,24 @@ function TechLiaison() {
       <div id="about-text-div"className="col-lg-8 col-md-6 col-xs-4">
       <p  className="text-justify">
         Are you frustrated with the constant miscommunication between the technical and non-techical parts of your organization?  
+
+        
         
         
          Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb.
 
      
       </p>
+      <p>
+      <h2>Services</h2>
+        <ul>
+            <li>Tech Services</li>
+            <li>Tech Services</li>
+            <li>Tech Services</li>
+            <li>Tech Services</li>
+            <li>Tech Services</li>
+        </ul>
+        </p>
       </div>
       <hr></hr>
 

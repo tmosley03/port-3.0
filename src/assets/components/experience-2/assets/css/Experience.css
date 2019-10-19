@@ -64,20 +64,3 @@ ul{
     max-width: 200px;
 }
 
-.site-screenshot{
-    max-width: 90%;
-}
-
-.example-wrapper{
-    padding: 15px;
-    border: solid 1px white;
-    border-radius: 8px;
-    max-width: 35%;
-    display: inline-block;
-    margin: 10px;
-    background-color: rgba(0, 0, 0, 0.411);
-}
-
-.example-text{
-    font-size: 12pt;
-}
