@@ -39,11 +39,11 @@ function TechLiaison() {
       <p>
       <h2>Services</h2>
         <ul>
-            <li>Tech Services</li>
-            <li>Tech Services</li>
-            <li>Tech Services</li>
-            <li>Tech Services</li>
-            <li>Tech Services</li>
+            <li>IT Consulting</li>
+            <li>Software Implementation</li>
+            <li>Application Deployment</li>
+            <li>Project Coordination</li>
+            <li>General Tech Services</li>
         </ul>
         </p>
       </div>

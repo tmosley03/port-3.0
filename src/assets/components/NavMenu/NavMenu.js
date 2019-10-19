@@ -22,10 +22,10 @@ const NavMenu = (props) => {
                         Technology
                     </Link>
 
-                    <Link to="tech-liaison" className="nav-text drawer-link hvr-grow  text-uppercase">
+                    {/* <Link to="tech-liaison" className="nav-text drawer-link hvr-grow  text-uppercase">
                         Tech Liaison
                     </Link>
-                    
+                     */}
                     <Link to="experience" className="nav-text drawer-link hvr-grow  text-uppercase">
                         Experience
                     </Link>
