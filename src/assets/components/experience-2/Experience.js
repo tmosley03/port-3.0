@@ -2,7 +2,7 @@ import React from "react";
 import "./assets/css/Experience.css";
 import resume from "./assets/images/resume.png"
 import evolution from './assets/images/evolution.gif';
-import Samples from '../sample-sites/Samples';
+// import Samples from '../sample-sites/Samples';
 //import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 //import {useTransition, animated} from 'react-spring';
 import { Spring } from 'react-spring/renderprops';
@@ -90,7 +90,7 @@ function Experience() {
       </div>
      </div>
 
-     <Samples />
+     {/* <Samples /> */}
       </div>
     )}
     </Spring>
