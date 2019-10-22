@@ -12,7 +12,7 @@ import csa from './assets/images/csa.png'
 
 function Samples() {
   return (
-<div className="col-lg-12">
+<div>
 
     <h2>Site Expamples</h2>
     <br />
