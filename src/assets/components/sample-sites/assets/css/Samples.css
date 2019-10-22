@@ -1,25 +1,27 @@
-.site-screenshot{
+.site-screenshot {
     max-width: 90%;
 }
 
-.example-wrapper{
+.example-wrapper {
     padding: 15px;
     border: solid 1px white;
     border-radius: 8px;
     max-width: 30%;
     min-width: 375px;
-    /* max-height: 40%; */
+    /* height: 400px; */
     display: inline-block;
+    float: none;
     margin: 15px;
     background-color: rgba(0, 0, 0, 0.411);
 }
 
-.example-text{
+.example-text {
     font-size: 12pt;
 }
 
-.example-container{
-    margin: auto;
+.example-container {
+    /* margin: auto; */
     /* display: flex; */
+    /* flex-wrap: wrap; */
     /* flex-direction: row; */
 }
