@@ -13,8 +13,10 @@ import csa from './assets/images/csa.png'
 function Samples() {
   return (
 <div>
-
-    <h2>Site Expamples</h2>
+<div className='col-lg-8 sample-text-header'>
+    <p>SAMPLES</p>
+    <p> I currently maintain, edit, and create new pages for the sites below as a part of a four person team.  The primary tools used are: HTML5, SASS (CSS3), Javascript, Gulp, SQL, and Wordpress for SEO.</p>
+    </div>
     <br />
     <br />
     {/* 1 */}
@@ -23,7 +25,7 @@ function Samples() {
       <img src= {realpage} alt='screen-shot' className='site-screenshot' /></a>
       <br />
       <p >RealPage.com</p>
-      <p className=" example-text text-justify"> RealPage.com is the flagship website for Real Page Inc.. I currently maintain, edit, and create new pages and functionality for this site as a part of a four person team.</p>
+     
     </div>
      {/* 2 */}
     <div className='example-wrapper'>
@@ -31,7 +33,7 @@ function Samples() {
       <img src= {propertyware} alt='screen-shot' className='site-screenshot' /></a>
       <br />
       <p >Propertyware.com</p>
-      <p className=" example-text text-justify"> RealPage.com is the flagship website for Real Page Inc.. I currently maintain, edit, and create new pages and functionality for this site as a part of a four person team.</p>
+      
     </div>
 
     {/* 3 */}
@@ -40,7 +42,7 @@ function Samples() {
       <img src= {blutrend} alt='screen-shot' className='site-screenshot' /></a>
       <br />
       <p >BlueTrend.com</p>
-      <p className="example-text text-justify">RealPage.com is the flagship website for Real Page Inc.. I currently maintain, edit, and create new pages and functionality for this site as a part of a four person team..</p>
+     
     </div>
     {/* 4 */}
     <div className='example-wrapper'>
@@ -48,7 +50,7 @@ function Samples() {
       <img src= {csa} alt='screen-shot' className='site-screenshot' /></a>
       <br />
       <p >CsaSecure.com</p>
-      <p className="example-text text-justify"> RealPage.com is the flagship website for Real Page Inc.. I currently maintain, edit, and create new pages and functionality for this site as a part of a four person team.</p>
+      
     </div>
     {/* 5 */}
     {/* <div className='example-wrapper'>
