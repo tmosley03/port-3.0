@@ -7,10 +7,9 @@ font-family: 'Maven Pro', sans-serif;
 font-family: 'Rock Salt', cursive;
  */
 
-.nav-wrapper{
-    margin-top: 30px;
+.nav-wrapper {
+    margin-top: 15px;
 }
-
 
 #headshot {
     width: 80%;
@@ -24,7 +23,7 @@ font-family: 'Rock Salt', cursive;
     border-radius: 5px;
 }
 
-.menu-brand-name{
+.menu-brand-name {
     color: white;
     font-size: 18pt;
     margin-top: 10px;
