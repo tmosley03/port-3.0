@@ -80,7 +80,7 @@ function Experience() {
         <br />
 
 
-        <a href="https://drive.google.com/file/d/1WNWBlzLdPE24ujr-yxiUgl-yBA-nkk9e/view?usp=sharing"
+        <a href="https://drive.google.com/open?id=1R7c3vkZtAZZrDaKQG3fg2OE0m1H2kLRn"
           target="_blank"
           rel="noopener noreferrer">
         <img id="res-icon" src={resume} alt="resume"/>
