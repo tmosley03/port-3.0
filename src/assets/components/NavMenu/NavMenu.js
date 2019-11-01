@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import './assets/css/NavMenu.css';
 import logo from './assets/images/logo.svg'
-import headshot from './assets/images/headshot.jpg'
+import tm3 from './assets/images/tm3-logo.png';
+// import headshot from './assets/images/headshot.jpg'
 // import Backdrop from '../Backdrop/Backdrop';
 
 const NavMenu = (props) => {
@@ -10,8 +11,8 @@ const NavMenu = (props) => {
   
         return(     
             <div className="nav-wrapper" onClick ={ props.click }>
-                <h2 className="menu-brand-name">Thomas Mosley 3</h2>
-                <img id="headshot" src={headshot} alt="" className="img-fluid" />
+                {/* <h2 className="menu-brand-name">Thomas Mosley 3</h2> */}
+                <img id="headshot" src={tm3} alt="" className="img-fluid" />
                 <hr/>
                 <ul>
                     <Link  to="about" className="nav-text drawer-link hvr-grow  text-uppercase">

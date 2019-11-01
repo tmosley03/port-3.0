@@ -1,5 +1,5 @@
 import React from 'react';
-import './assets/css/About.css';
+import './assets/css/techLiaison.css';
 //import about from './assets/images/about.jpg'
 
 import officeSpace from './assets/images/office.gif';

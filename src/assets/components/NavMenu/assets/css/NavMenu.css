@@ -20,7 +20,7 @@ font-family: 'Rock Salt', cursive;
     margin-top: 20px;
     margin-bottom: 10px;
     float: none;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     border-radius: 5px;
 }
 
