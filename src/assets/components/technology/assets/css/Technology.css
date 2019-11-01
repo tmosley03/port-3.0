@@ -39,21 +39,27 @@ p {
     margin: auto;
 }
 
-.tech-component{
+.tech-component {
     margin: auto;
 }
 
 
 /* Media Queries */
 
-@media(max-width: 500px){
-   .lang-icon{
-       height:75px;
+@media(max-width: 500px) {
+    .lang-icon {
+        height: 75px;
     }
 }
 
-@media(max-width: 475px){
-    .lang-icon{
-        height:70px;
-     }
- }
+@media(max-width: 475px) {
+    .lang-icon {
+        height: 70px;
+    }
+}
+
+@media(max-width: 361px) {
+    .lang-icon {
+        height: 50px;
+    }
+}

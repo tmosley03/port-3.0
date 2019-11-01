@@ -15,8 +15,10 @@ function Samples() {
 <div>
 <div className='col-lg-8 sample-text-header'>
     <p>SAMPLES</p>
-    <p className='text-justify'> I currently maintain, edit, and create new pages for the sites below as a part of a four person team.  The primary tools used are: HTML5, SASS (CSS3), Javascript, Gulp, SQL, and Wordpress for SEO.</p>
+    <p className='text-justify'> I currently maintain, edit, and create new pages for the sites below as a part of a four person team.  The primary tools used are:<span className="sample-lang"> HTML5, SASS (CSS3), Javascript, Gulp, SQL, and Wordpress for SEO</span>.</p>
+  
     </div>
+    <hr />
     <br />
     <br />
     {/* 1 */}

@@ -29,3 +29,8 @@
     /* flex-wrap: wrap; */
     /* flex-direction: row; */
 }
+
+.sample-lang {
+    font: bold Georgia, serif;
+    /* color: red; */
+}

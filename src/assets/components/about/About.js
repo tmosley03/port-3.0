@@ -1,7 +1,7 @@
 import React from 'react';
-import './assets/css/About.css';
+// import './assets/css/About.css';
 //import about from './assets/images/about.jpg'
-import thomas from './assets/images/thomas.jpg';
+import headshot from './assets/images/headshot.jpg';
 import { Spring } from 'react-spring/renderprops'
 
 
@@ -22,7 +22,7 @@ function About() {
       <br/>
       <hr />
 
-      <img id="about-img" src={thomas} alt="thomas" className="img-fluid" />
+      <img id="about-img" src={headshot} alt="thomas" className="img-fluid" />
       <hr />
       <div id="about-text-div"className="col-lg-8 col-md-6 col-xs-4">
       <p  className="text-justify">
