@@ -15,11 +15,11 @@ const NavMenu = (props) => {
                 <img id="headshot" src={tm3} alt="" className="img-fluid" />
                 <hr/>
                 <ul>
-                    <Link  to="about" className="nav-text drawer-link hvr-grow  text-uppercase">
+                    <Link  to="/about" className="nav-text drawer-link hvr-grow  text-uppercase">
                        About                 
                     </Link>
 
-                    <Link to="technology" className="nav-text drawer-link hvr-grow  text-uppercase">
+                    <Link to="/technology" className="nav-text drawer-link hvr-grow  text-uppercase">
                         Technology
                     </Link>
 
@@ -27,7 +27,7 @@ const NavMenu = (props) => {
                         Tech Liaison
                     </Link>
                      */}
-                    <Link to="experience" className="nav-text drawer-link hvr-grow  text-uppercase">
+                    <Link to="/experience" className="nav-text drawer-link hvr-grow  text-uppercase">
                         Experience
                     </Link>
 

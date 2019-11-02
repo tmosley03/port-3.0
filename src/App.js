@@ -21,7 +21,9 @@ import Technology from './assets/components/technology/Technology'
 // import Home from './assets/components/home/Home'
 import Footer from './assets/components/footer/Footer'
 // dependencies
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch, HashRouter } from 'react-router-dom';
+import {browserHistory } from 'react-router';
+
 // import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 // import { TransitionGroup, CSSTransition } from "react-transition-group";
 import { Spring } from 'react-spring/renderprops'
@@ -66,7 +68,7 @@ class App extends Component  {
     >
     {props =>(
       <div style={props}>
-      <Router>
+      <HashRouter history= {browserHistory} >
       <div className="App">      
     
       {backdrop}  
@@ -91,7 +93,7 @@ class App extends Component  {
         {/* <RSidebar /> */}
         <Footer />
       </div>
-      </Router>
+      </HashRouter>
       </div>
     )}
     </Spring>
