@@ -21,7 +21,7 @@ import Technology from './assets/components/technology/Technology'
 // import Home from './assets/components/home/Home'
 import Footer from './assets/components/footer/Footer'
 // dependencies
-import { BrowserRouter as Router, Route, Switch, HashRouter } from 'react-router-dom';
+import { Route, Switch, HashRouter } from 'react-router-dom';
 import {browserHistory } from 'react-router';
 
 // import ReactCSSTransitionGroup from 'react-addons-css-transition-group';

@@ -1,4 +1,4 @@
-/* === fonts ===
+    /* === fonts ===
 font-family: 'Rajdhani', sans-serif;
 font-family: 'Catamaran', sans-serif;
 font-family: 'Questrial', sans-serif;
@@ -6,28 +6,29 @@ font-family: 'Barlow', sans-serif;
 font-family: 'Maven Pro', sans-serif;
 font-family: 'Rock Salt', cursive;
  */
-
-.nav-wrapper {
-    /* margin-top: 15px; */
-    vertical-align: bottom;
-}
-
-#headshot {
-    width: 70%;
-    max-width: 250px;
-    margin-left: auto;
-    margin-right: auto;
-    /* margin-top: 20px; */
-    /* margin-bottom: 10px; */
-    float: none;
-    /* border: 1px solid white; */
-    border-radius: 5px;
-}
-
-.menu-brand-name {
-    color: white;
-    font-size: 18pt;
-    margin-top: 10px;
-    font-family: 'Rajdhani', sans-serif;
-    /* font-weight: bolder; */
-}
+    
+    .nav-wrapper {
+        /* display: inline; */
+        margin-top: 33%;
+    }
+    
+    #headshot {
+        height: 120px;
+        /* width: 70%; */
+        max-width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin-top: 20px; */
+        /* margin-bottom: 10px; */
+        float: none;
+        /* border: 1px solid white; */
+        border-radius: 5px;
+    }
+    
+    .menu-brand-name {
+        color: white;
+        font-size: 18pt;
+        margin-top: 10px;
+        font-family: 'Rajdhani', sans-serif;
+        /* font-weight: bolder; */
+    }

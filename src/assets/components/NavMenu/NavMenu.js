@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import './assets/css/NavMenu.css';
 import logo from './assets/images/logo.svg'
+// import tm3Logo from './assets/images/tm3-logo.png'
 import tm3 from './assets/images/tm3-logo.png';
 // import headshot from './assets/images/headshot.jpg'
 // import Backdrop from '../Backdrop/Backdrop';
