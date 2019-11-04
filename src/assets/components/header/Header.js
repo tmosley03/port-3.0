@@ -15,7 +15,7 @@ const header =  (props) => {
        <div>
         <nav id= "header" className= "navbar fixed-top">
           {/* <img id="name" className="fluid-img navbar-brand"src={name} alt="" /> */}
-          <h4  id="header-text" className="d-inline-block align-top">web developer </h4>
+          <p  id="" className="header-text d-inline-block align-top">Thomas Mosley | <span id="header-span">Web Developer</span></p>
           <ToggleBtn click ={ props.drawerClickHandler }/>
         </nav>
        </div>

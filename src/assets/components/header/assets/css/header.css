@@ -22,26 +22,33 @@ font-family: 'Rock Salt', cursive;
     /* margin-bottom: 125px; */
     border-bottom: "black";
     /* linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(https://media.giphy.com/media/sRFEa8lbeC7zbcIZZR/giphy.gif); */
-  
 }
 
-#header-text {
+.header-text {
     color: white;
     font-family: 'Rajdhani', sans-serif;
-   
 }
+
+#header-span {
+    color: rgb(126, 126, 126);
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bolder;
+}
+
+
 /* 
 #name {
     margin-left: 80px;
 } */
 
+
 /* Media queries */
 
-@media(max-width: 500px){
-    #name{
-       /* display:block; */
-       float: none;
-       margin: auto;
-       width: 150px;
+@media(max-width: 500px) {
+    #name {
+        /* display:block; */
+        float: none;
+        margin: auto;
+        width: 150px;
     }
 }
