@@ -25,6 +25,9 @@ font-family: 'Rock Salt', cursive;
 }
 
 .header-text {
+    vertical-align: middle;
+    margin-bottom: 0px;
+    float:left;
     color: white;
     font-family: 'Rajdhani', sans-serif;
 }

@@ -1,63 +1,45 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './assets/css/techLiaison.css';
-//import about from './assets/images/about.jpg'
+import about from './assets/images/about.jpg'
 
-import officeSpace from './assets/images/office.gif';
-import { Spring } from 'react-spring/renderprops'
+// import officeSpace from './assets/images/office.gif';
+import { useTrail, animated } from 'react-spring'
 
 
 
 function TechLiaison() {
+
+
+  const items = ['Lorem', 'ipsum', 'dolor', 'sit']
+  const config = { mass: 5, tension: 2000, friction: 200 }
+  const [toggle, set] = useState(true)
+  const trail = useTrail(items.length, {
+    config,
+    opacity: toggle ? 1 : 0,
+    y: toggle ? 0 : 20,
+    height: toggle ? 80 : 0,
+    from: { opacity: 0, y: 20, height: 0 },
+  })
+
   return (
-
-<Spring
-      from={{ opacity: 0 }}
-      to={{ opacity:1}}
-    >
-    {props =>(
-      <div style={props}>
-      <div className="content-component">
-      {/* <hr /> */}
-
-      <h1 className="component-header">Technical Liaison</h1>
-      <br/>
-      <hr />
-
-      <img src={officeSpace} alt="thomas" className="img-fluid" />
-      <hr />
-      <div id="about-text-div"className="col-lg-8 col-md-6 col-xs-4">
-      <p  className="text-justify">
-        Are you frustrated with the constant miscommunication between the technical and non-techical parts of your organization?  
-
-        
-        
-        
-         Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb.
-
-     
-      </p>
-      <p>
-      <h2>Services</h2>
-        <ul>
-            <li>IT Consulting</li>
-            <li>Software Implementation</li>
-            <li>Application Deployment</li>
-            <li>Project Coordination</li>
-            <li>General Tech Services</li>
-        </ul>
-        </p>
-      </div>
-      <hr></hr>
-
-
-    </div>
-      </div>
-    )}
-    </Spring>
-
    
 
-  );
+    <div className="trails-main" onClick={() => set(state => !state)}>
+       
+      <div>
+      <h1>test2</h1>
+        {trail.map(({ y, height, ...rest }, index) => (
+          <animated.div
+            key={items[index]}
+            className="trails-text"
+            style={{ ...rest, transform: y.interpolate(y => `translate3d(0,${y}px,0)`) }}>
+            <animated.div style={{ height }}><h1>HELLO WORLD!</h1></animated.div>
+          </animated.div>
+        ))}
+      </div>
+    </div>
+  )
+
 }
-console.log('ping from liaison')
+// console.log('ping from liaison')
 export default TechLiaison;  

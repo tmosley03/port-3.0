@@ -56,7 +56,7 @@ function Contact() {
 
               <br />
               <hr />
-              <p className="text-justify">Whether you are looking to hire a full time developer for a position you need to fill or maybe you just need help with a short term project, I'd love to hear from you.  I'm always on the lookout for the projects to participate in in whatever capacity makes the most sense be it development, marketing, or even working as a conduit between technical and non technical parts of your orginization. Thank you for your consideration and I look forward to discussing how I can add to your next project.  </p>
+              <p className="text-justify">Whether you are looking to hire a full time developer for a position you need to fill or you just need help with a short term project, I'd love to hear from you.  I can participate in whatever capacity makes the most sense, be it development, marketing, or even working as a conduit between technical and non technical parts of your orginization. Thank you for your consideration and I look forward to discussing how I can add to your next project.  </p>
               
               <hr />
             </div>

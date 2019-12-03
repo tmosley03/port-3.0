@@ -1,6 +1,7 @@
-import React from 'react';
+import React, {useState}  from 'react';
 import './assets/css/Technology.css';
-import { Spring } from 'react-spring/renderprops'
+import { Spring, Trail, useTrail,animated } from 'react-spring/renderprops'
+
 // import technology from './assets/images/technology.jpg'
 // =========================================
 import ajax from './assets/images/tech-icons/ajax.png'
@@ -43,13 +44,27 @@ import mac from './assets/images/tech-icons/mac.png'
 import windows from './assets/images/tech-icons/windows.png'
 import vim from './assets/images/tech-icons/vim.png'
 import mamp from './assets/images/tech-icons/mamp.png'
+
 //add apache, mamp, ftp
 // =========================================
+
+// Trailing content =========================
+
+// ==========================================
+
+
 
 
 
 function Technology() {
+// test
+  const items = ['Lorem', 'ipsum', 'dolor', 'sit']
+  const config = { mass: 5, tension: 2000, friction: 200 }
+  const [toggle, set] = useState(true)
+
+//  /test
   return (
+
 
 <Spring
       from={{ opacity: 0 }}
@@ -60,7 +75,10 @@ function Technology() {
       
       <div id="tech-content-div" className="content-component ">
     
+{/*================================ test block ============ */}
 
+
+    {/*================================ test block ============ */}
       <h1 className="component-header">TECHNOLOGY</h1>
       <hr />
       {/* <img id="tech-header-img" src="https://media.giphy.com/media/l2SpRpwOiLcaqb1XG/giphy.gif" alt="" className="img-fluid" /> */}
